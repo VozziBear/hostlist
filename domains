@@ -121,6 +121,7 @@
 0.0.0.0 offerwall.yandex.net
 0.0.0.0 adfox.yandex.ru
 0.0.0.0 analytics.mobile.yandex.net
+0.0.0.0 appmetrica.yandex.com
 
 0.0.0.0 auction.unityads.unity3d.com
 0.0.0.0 webview.unityads.unity3d.com
@@ -173,7 +174,6 @@
 0.0.0.0 metrics.apple.com
 0.0.0.0 securemetrics.apple.com
 0.0.0.0 supportmetrics.apple.com
-0.0.0.0 
 
 0.0.0.0 samsungads.com
 0.0.0.0 smetrics.samsung.com
