@@ -307,4 +307,33 @@
 0.0.0.0 t.mateti.net
 0.0.0.0 video-akpcw-cdn-spotify-com.akamaized.net
 0.0.0.0 bloodhound-off-helios.spotify.com
-# 0.0.0.0 example.com
+0.0.0.0 prvc.io
+0.0.0.0 static.tracfficjunky.com
+0.0.0.0 etahub.com
+0.0.0.0 ei.phncdn.com
+0.0.0.0 a.opoxv.com
+0.0.0.0 s.opoxv.com
+0.0.0.0 a.orbsrv.com
+0.0.0.0 s.orbsrv.com
+0.0.0.0 www.sukigyik.xyz
+0.0.0.0 a.magsrv.com
+0.0.0.0 magsrv.com
+0.0.0.0 static.cloudflareinsights.com
+0.0.0.0 aa.fapnado.xxx
+0.0.0.0 flixtrial.com
+0.0.0.0 engine.flixtrial.com
+0.0.0.0 jsdelivr.net
+0.0.0.0 cdn.jsdelivr.net
+0.0.0.0 toplist.cz
+0.0.0.0 xlivrdr.com
+0.0.0.0 creative.xlivrdr.com
+0.0.0.0 adtng.com
+0.0.0.0 a.adtng.com
+0.0.0.0 smartlook.com
+0.0.0.0 web-sdk.smartlook.com
+0.0.0.0 ampproject.org
+0.0.0.0 cdn.ampproject.org
+0.0.0.0 iframe.chefkoch.de
+0.0.0.0 cdn.chefkoch.de
+0.0.0.0 baseendpoint.chefkoch.de
+# 0.0.0.0 example.com 
