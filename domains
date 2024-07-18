@@ -224,78 +224,35 @@
 0.0.0.0 ib.adnxs-simple.com/ut/v3/prebid
 0.0.0.0 eb2.3lift.com
 0.0.0.0 tlx.3lift.com
-0.0.0.0 
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
-0.0.0.0
+0.0.0.0 log.dpa.com
+0.0.0.0 static.hotjar.com
+0.0.0.0 widgets.outbrain.com
+0.0.0.0 data-1818d50639.focus.de
+0.0.0.0 data-e3d4300b49.n-tv.de
+0.0.0.0 metrics.n-tv.de
+0.0.0.0 cdn-gl.imrworldwide.com
+0.0.0.0 session-bugs-fra1.rtl.de
+0.0.0.0 te-static.technical-service.net
+0.0.0.0 px1.vtrtl.de
+0.0.0.0 licensing.bitmovin.com
+0.0.0.0 assets.adobedtm.com
+0.0.0.0 data-8f03f9dd42.spiegel.de
+0.0.0.0 sp-spiegel-de.spiegel.de
+0.0.0.0 plausible.motorpresse.de
+0.0.0.0 data-5e5ac4ec65.menshealth.de
+0.0.0.0 data-cb2c174131.menshealth.de
+0.0.0.0 privacy.menshealth.de
+0.0.0.0 static.xx.fbcdn.net
+0.0.0.0 play.google.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 fpt.microsoft.com
+0.0.0.0 logs1413.xiti.com
+0.0.0.0 zagent30.h-cdn.com
+0.0.0.0 zagent29.h-cdn.com
+0.0.0.0 perr.h-cdn.com
+0.0.0.0 try.abtasty.com
+0.0.0.0 cdn-gl.nmrodam.com
+0.0.0.0 tag.aticdn.net
+0.0.0.0 static.zdassets.com
+0.0.0.0 mssdk-i18n.tiktok.com
 # 0.0.0.0 example.com
