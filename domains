@@ -563,4 +563,16 @@
 0.0.0.0 data-e3d4300b49.n-tv.de
 0.0.0.0 relay-client-c03.iocnt.net
 0.0.0.0 adclick.g.doubleclick.net
+
+0.0.0.0 sats.spiegel.de
+0.0.0.0 adalliance.dcapi.tagger.opecloud.com
+0.0.0.0 adalliance.tagger.opecloud.com
+0.0.0.0 data-8f03f9dd42.spiegel.de
+0.0.0.0 mitself.net
+0.0.0.0 e7808.dscg.akamaiedge
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 star-mini.c10r.facebook.com
+0.0.0.0 a1358.dscd.akamai.net
+0.0.0.0 a1661.dscd.akamai.net
+0.0.0.0 spiegel.de.ssl.sc.omtrdc.net
 # 0.0.0.0 example.com
