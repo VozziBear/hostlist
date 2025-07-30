@@ -510,3 +510,27 @@
 0.0.0.0 epimetheus.navigator.gmx.net
 0.0.0.0 ymprove.gmx.net
 0.0.0.0 scontent.xx.fbcdn.net
+
+0.0.0.0 curation-welt-static.curation.deepthought.cloud
+0.0.0.0 rusty-heartbeat.services.ps.axelspringer.de
+0.0.0.0 usercentrics.eu
+0.0.0.0 api.usercentrics.eu
+0.0.0.0 aggregator.service.usercentrics.eu
+0.0.0.0 stats.computop.com
+0.0.0.0 uct.service.usercentrics.eu
+0.0.0.0 o4507427284123728.ingest.de.sentry.io
+0.0.0.0 static.zdassets.com
+# sollte das Telefon sein
+0.0.0.0 eventgw.us1.twilio.com
+#muss evtl ebenfalls entfernt werden
+0.0.0.0 cdn.segment.com
+0.0.0.0 assets.zendesk.com
+#muss evtl ebenfalls entfernt werden
+0.0.0.0 apps.zdusercontent.com.204239
+0.0.0.0 apps.zdusercontent.com.35111
+0.0.0.0 apps.zdusercontent.com.6846
+
+#0.0.0.0 
+
+#evtl. entfernen
+0.0.0.0 aet.spotify.com
