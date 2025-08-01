@@ -403,7 +403,7 @@
 0.0.0.0 player.target.video.com
 0.0.0.0 px.ads.linkedin.com
 0.0.0.0 s.pemserv.com
-0.0.0.0 snap.licdn.comm
+0.0.0.0 snap.licdn.com
 0.0.0.0 sr-client-cfg.amplitude.com
 0.0.0.0 ssl-heise.met.vgwort.de
 0.0.0.0 static.hotjar.com
@@ -534,3 +534,12 @@
 
 #evtl. entfernen
 0.0.0.0 aet.spotify.com
+
+
+0.0.0.0 cdn.confiant-integrations.net
+0.0.0.0 t.visx.net
+0.0.0.0 c1.adform.net
+0.0.0.0 js.adscale.de
+0.0.0.0 u.openx.net
+0.0.0.0 ms-cookie-sync.presage.io
+0.0.0.0 ssl-golem.met.vgwort.de
