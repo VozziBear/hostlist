@@ -259,7 +259,6 @@
 0.0.0.0 t.himuhi.my
 0.0.0.0 www8.smartadserver.com
 0.0.0.0 adalliance.profiles.tagger.opecloud.com
-0.0.0.0 analytics.tiktok.com
 0.0.0.0 api2.amplitude.com
 0.0.0.0 cm.adsafety.net
 0.0.0.0 g2.gumgum.com
@@ -495,9 +494,7 @@
 0.0.0.0 svonm.com
 0.0.0.0 asadcdn.com
 0.0.0.0 united-infos.net
-
 0.0.0.0 wa.gmx.net
-
 0.0.0.0 criteo.net
 0.0.0.0 absys.web.de
 0.0.0.0 img.ui-portal.de
@@ -510,7 +507,6 @@
 0.0.0.0 epimetheus.navigator.gmx.net
 0.0.0.0 ymprove.gmx.net
 0.0.0.0 scontent.xx.fbcdn.net
-
 0.0.0.0 curation-welt-static.curation.deepthought.cloud
 0.0.0.0 rusty-heartbeat.services.ps.axelspringer.de
 0.0.0.0 usercentrics.eu
@@ -520,22 +516,14 @@
 0.0.0.0 uct.service.usercentrics.eu
 0.0.0.0 o4507427284123728.ingest.de.sentry.io
 0.0.0.0 static.zdassets.com
-# sollte das Telefon sein
 0.0.0.0 eventgw.us1.twilio.com
-#muss evtl ebenfalls entfernt werden
 0.0.0.0 cdn.segment.com
 0.0.0.0 assets.zendesk.com
-#muss evtl ebenfalls entfernt werden
 0.0.0.0 apps.zdusercontent.com.204239
 0.0.0.0 apps.zdusercontent.com.35111
 0.0.0.0 apps.zdusercontent.com.6846
-
-#0.0.0.0 
-
-#evtl. entfernen
 0.0.0.0 aet.spotify.com
 0.0.0.0 ads.spotify.com
-
 0.0.0.0 cdn.confiant-integrations.net
 0.0.0.0 t.visx.net
 0.0.0.0 c1.adform.net
@@ -543,7 +531,6 @@
 0.0.0.0 u.openx.net
 0.0.0.0 ms-cookie-sync.presage.io
 0.0.0.0 ssl-golem.met.vgwort.de
-
 0.0.0.0 googleadservices.com
 0.0.0.0 adnz.co
 0.0.0.0 geoip.user.public.finanzen2.net
@@ -554,7 +541,6 @@
 0.0.0.0 yasen.hotellook.com
 0.0.0.0 awin1.com
 0.0.0.0 infinity-c41.youboranqs01.com #evtl. entfernen
-
 0.0.0.0 counter.yadro.ru
 0.0.0.0 q0jo16uy1r.data.adobedc.net
 0.0.0.0 bat.bing.com
@@ -640,3 +626,145 @@
 0.0.0.0 p.typekit.net
 0.0.0.0 ad-ipd.sxp.smartclip.net
 0.0.0.0 lma.npaw.com
+0.0.0.0 o4507423443189760.ingest.de.sentry.io
+0.0.0.0 cdn.scarabresearch.com
+0.0.0.0 data-5e5ac4ec65.menshealth.de
+0.0.0.0 data-cb2c174131.menshealth.de
+0.0.0.0 matomo.menshealth.de
+0.0.0.0 gadata.motorpresse.de
+0.0.0.0 plausible.motorpresse.de
+0.0.0.0 sdk.mrf.io
+0.0.0.0 n-tv.met.vgwort.de
+0.0.0.0 eu-west-3.xhamster.desi
+0.0.0.0 us-west-2.xhamster.desi
+0.0.0.0 go.mnaspm.com
+0.0.0.0 s.optvz.com
+0.0.0.0 a.realsrv.com
+0.0.0.0 as.air2s.com
+0.0.0.0 fallback.xhamster.desi
+0.0.0.0 tpdwm.com
+0.0.0.0 ae3e0a05489629f1f964cefa05fb463f.scashwl.com
+0.0.0.0 cdn.banhq.com
+0.0.0.0 a.crme7srv.com
+0.0.0.0 live.quixova.com
+0.0.0.0 aoalmfwinbsstec23.com
+0.0.0.0 cdn.impactserving.com
+0.0.0.0 creative.boyfriend.show
+0.0.0.0 a.ahort.xyz
+0.0.0.0 abt.s3.yandex.net
+0.0.0.0 s.8jfbt5va3r.com
+0.0.0.0 go.niscprts.com
+0.0.0.0 engine.trialhd.com
+0.0.0.0 vast.vstserv.com
+0.0.0.0 go.rmhfrtnd.com
+0.0.0.0 32a8556589c8a177ccfa2da8a0d5a231.scashwl.com
+0.0.0.0 adv.drtuber.com
+0.0.0.0 t.hepelu.my
+0.0.0.0 bilder11.markt.de
+0.0.0.0 cdn.adspirit.de
+0.0.0.0 cdn.feed.solads.media
+0.0.0.0 csp.withgoogle.com
+0.0.0.0 log.dpa.com
+0.0.0.0 euronewsgroup.d3.sc.omtrdc.net
+0.0.0.0 de-config.sensic.net
+0.0.0.0 logs1409.xiti.com
+0.0.0.0 data-df5a2bcc30.aerzteblatt.de
+0.0.0.0 tag.aticdn.net
+0.0.0.0 71c48eaee4f848efa24fff0e1a6635a0.apm.westeurope.azure.elastic-cloud.com
+0.0.0.0 data-ecb5249bb2.falter.at
+0.0.0.0 tracker.falter.at
+0.0.0.0 cdn.usefathom.com
+0.0.0.0 wni4spsbqo.kameleoon.eu
+0.0.0.0 graph.instagram.com
+0.0.0.0 tms.danzz.ch
+0.0.0.0 cdn.moengage.com
+0.0.0.0 www.npttech.com
+0.0.0.0 content.zeotap.com
+0.0.0.0 www.googleoptimize.com
+0.0.0.0 o22381.ingest.sentry.io
+0.0.0.0 beyondwickedmapping.org
+0.0.0.0 htlbid.com
+0.0.0.0 prodregistryv2.org
+0.0.0.0 librato-collector.genius.com
+0.0.0.0 cdn.adsafeprotected.com
+0.0.0.0 ads.assemblyexchange.com
+0.0.0.0 i.clean.gg
+0.0.0.0 api-js.mixpanel.com
+0.0.0.0 live.primis.tech
+0.0.0.0 secure.quantserve.com
+0.0.0.0 srv.tunefindforfans.com
+0.0.0.0 o4504875580850176.ingest.us.sentry.io
+0.0.0.0 cloud.umami.is
+0.0.0.0 runforrest.4p.de
+0.0.0.0 cdn.stroeerdigitalgroup.de
+0.0.0.0 cdn.lib.getjad.io
+0.0.0.0 data-d543661da8.oe24.at
+0.0.0.0 tracking.oe24.at
+0.0.0.0 oe24-cdn.relevant-digital.com
+0.0.0.0 o432808.ingest.sentry.io
+0.0.0.0 cdn-header-bidding.snack-media.com
+0.0.0.0 data-17c7ec5f16.giga.de
+0.0.0.0 utiq.giga.de
+0.0.0.0 quiz.stroeermediabrands.de
+0.0.0.0 pg.ignimgs.com
+0.0.0.0 scripts.simpleanalyticscdn.com
+0.0.0.0 alb.reddit.com
+0.0.0.0 scripts.mediavine.com
+0.0.0.0 o1040326.ingest.sentry.io
+0.0.0.0 cdn4.userzoom.com
+0.0.0.0 d2o5idwacg3gyw.cloudfront.net
+0.0.0.0 db7q4jg5rkhk8.cloudfront.net
+0.0.0.0 cdn0.forter.com
+0.0.0.0 cdn3.forter.com
+0.0.0.0 77ee068b6863.cdn4.forter.com
+0.0.0.0 siteperformancetest.net
+0.0.0.0 data-f1e447fbcf.merkur.de
+0.0.0.0 clickstream-api.folderz.nl
+0.0.0.0 mon-va.byteoversea.com
+0.0.0.0 ingress.linktr.ee
+0.0.0.0 m.tiktok.com
+0.0.0.0 pushpad.xyz
+0.0.0.0 backupstatic.twincdn.com
+0.0.0.0 static2.twincdn.com
+0.0.0.0 static.twincdn.com
+0.0.0.0 data-f1e447fbcf.ruhr24.de
+0.0.0.0 dynamic.criteo.com
+0.0.0.0 d.finative.cloud
+0.0.0.0 etahub.com
+0.0.0.0 cdnm.techpump.com
+0.0.0.0 prophet.heise.de
+0.0.0.0 s.magic-mirror.biz
+0.0.0.0 unagi.amazon.de
+0.0.0.0 unagi-eu.amazon.com
+0.0.0.0 mitself.net
+0.0.0.0 dd.astockcdn.net.first-party-js.datadome.co
+0.0.0.0 sentry.radyushin.com
+0.0.0.0 plw6buurmlxhrlkm6wy3uk7cia0mprkq.lambda-url.ap-south-1.on.aws
+0.0.0.0 ht-cdn.analytics.shutterstock.com
+0.0.0.0 js-agent.newrelic.com
+0.0.0.0 matomo.christin-loehner.de
+0.0.0.0 log.cookieyes.com
+0.0.0.0 mcizas.com
+0.0.0.0 amateurdough.com
+0.0.0.0 a.exosrv.com
+0.0.0.0 tpmedia-reactads.com
+0.0.0.0 creative.rmhfrtnd.com
+0.0.0.0 engine.flixtrial.com
+0.0.0.0 storage.googleapis.com
+0.0.0.0 www.googletagservices.com
+0.0.0.0 data-3eff3aac07.kino-zeit.de
+0.0.0.0 www.dwin1.com
+0.0.0.0 app.usercentrics.eu
+0.0.0.0 crs.pa.br.de
+0.0.0.0 uct.service.usercentrics.eu
+0.0.0.0 pa.br.de
+0.0.0.0 www.otowdvfis.com
+0.0.0.0 www.eogkxhtmoctjp.com
+0.0.0.0 d2kk0o3fr7ed01.cloudfront.net
+0.0.0.0 www.betteradsystem.com
+0.0.0.0 static.virgul.com
+0.0.0.0 feed.solads.media
+0.0.0.0 chtntor.com
+0.0.0.0 widgets.cam-content.com
+
+#0.0.0.0 
