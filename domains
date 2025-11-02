@@ -364,7 +364,7 @@
 0.0.0.0 js.appboycdn.com
 0.0.0.0 macro.adnami.io
 0.0.0.0 mafo.adalliance.io
-0.0.0.0 micro.rubiconproject.comm
+0.0.0.0 micro.rubiconproject.com
 0.0.0.0 nkfinsdg.com
 0.0.0.0 omst.crazyporn.xxx
 0.0.0.0 ostm.love4porn.com
@@ -765,7 +765,6 @@
 0.0.0.0 feed.solads.media
 0.0.0.0 chtntor.com
 0.0.0.0 widgets.cam-content.com
-
 0.0.0.0 tracksrv.zdf.de
 0.0.0.0 cl.t3n.de
 0.0.0.0 data-f6d2ad6f1b.t3n.de
@@ -852,5 +851,27 @@
 0.0.0.0 dotsource.piwik.pro
 0.0.0.0 sentry.get-in.dev
 0.0.0.0 walhalla.piwik.pro
+
+0.0.0.0 c.msn.com
+0.0.0.0 browser.events.data.msn.com
+0.0.0.0 btloader.com
+0.0.0.0 csp.microsoft.com
+0.0.0.0 scripts.mf.webcontentassessor.com
+0.0.0.0 srtb.msn.com
+0.0.0.0 c.bing.com
+0.0.0.0 confiant.msn.com
+0.0.0.0 tags.crwdcntrl.net
+0.0.0.0 cdn.tagdeliver.com
+0.0.0.0 c1.microsoft.com
+0.0.0.0 eu-mobile.events.data.microsoft.com
+0.0.0.0 o4508134825000960.ingest.us.sentry.io
+0.0.0.0 syndicatedsearch.goog
+0.0.0.0 o28395.ingest.sentry.io
+0.0.0.0 pwc.piwik.pro
+0.0.0.0 northcentralus-0.in.applicationinsights.azure.com
+0.0.0.0 browser.events.data.microsoft.com
+0.0.0.0 s0.wp.com
+0.0.0.0 pixel.wp.com
+
 
 #0.0.0.0 
