@@ -851,7 +851,6 @@
 0.0.0.0 dotsource.piwik.pro
 0.0.0.0 sentry.get-in.dev
 0.0.0.0 walhalla.piwik.pro
-
 0.0.0.0 c.msn.com
 0.0.0.0 browser.events.data.msn.com
 0.0.0.0 btloader.com
@@ -873,5 +872,6 @@
 0.0.0.0 s0.wp.com
 0.0.0.0 pixel.wp.com
 
+0.0.0.0 px1.vtrtl.de
 
 #0.0.0.0 
