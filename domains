@@ -680,7 +680,7 @@
 0.0.0.0 cdn.moengage.com
 0.0.0.0 www.npttech.com
 0.0.0.0 content.zeotap.com
-0.0.0.0 www.googleoptimize.com
+0.0.0.0 googleoptimize.com
 0.0.0.0 o22381.ingest.sentry.io
 0.0.0.0 beyondwickedmapping.org
 0.0.0.0 htlbid.com
@@ -938,5 +938,18 @@
 0.0.0.0 ast.techbook.de
 0.0.0.0 data-bb21a2f11b.techbook.de
 0.0.0.0 ssl-vg03.met.vgwort.de
+
+0.0.0.0 sq-tungsten-ts-eu.amazon-adsystem.com
+0.0.0.0 fls-eu.amazon.de
+0.0.0.0 assets.twitch.tv
+0.0.0.0 sentry.io
+0.0.0.0 unagi-na.amazon.de
+0.0.0.0 d3aqoihi2n8ty8.cloudfront.net
+0.0.0.0 images-na.ssl-images-amazon.com
+0.0.0.0 m.media-amazon.com
+0.0.0.0 a.media-amazon.com
+0.0.0.0 dk9ps7goqoeef.cloudfront.net
+0.0.0.0 f.media-amazon.com
+0.0.0.0 mpognobbkildjkofajifpdfhcoklimli
 
 #0.0.0.0 
