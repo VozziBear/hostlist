@@ -73,8 +73,8 @@
 0.0.0.0 analytics.pinterest.comanalytics.pinterest.com
 0.0.0.0 trk.pinterest.com
 0.0.0.0 widgets.pinterest.com
-0.0.0.0 events.reddit.com
-0.0.0.0 events.redditmedia.com
+#0.0.0.0 events.reddit.com
+#0.0.0.0 events.redditmedia.com
 0.0.0.0 ads.youtube.com  
 0.0.0.0 ads-api.tiktok.com
 0.0.0.0 analytics.tiktok.com
@@ -415,7 +415,7 @@
 0.0.0.0 video.xlviirdr.co
 0.0.0.0 www.clarity.ms
 0.0.0.0 www.googleadservices.co
-0.0.0.0 www.redditstatic.com
+#0.0.0.0 www.redditstatic.com
 0.0.0.0 xsoktpyi.com
 0.0.0.0 yxsu5ufd2m.kameleoon.eu
 0.0.0.0 z0000g.yorkvillemarketing.net
