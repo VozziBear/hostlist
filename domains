@@ -329,7 +329,7 @@
 0.0.0.0 as.sexad.net
 0.0.0.0 atonato.de
 0.0.0.0 cdn-a.yieldlove.com
-0.0.0.0 cdn.jsdelivr.net
+#0.0.0.0 cdn.jsdelivr.net
 0.0.0.0 cs.pgammedia.com
 0.0.0.0 hbx.media.net
 0.0.0.0 pdw-usr.userreport.com
