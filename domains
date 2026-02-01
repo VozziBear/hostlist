@@ -1,4 +1,7 @@
 ||godkc.com^$document
+r[0-9-]-sn-[a-z0-9]-[0-9a-z]{4}.googlevideo.com
+r[0-9]--sn-[a-z0-9]-[0-9a-z]{4}.googlevideo.com
+
 
 0.0.0.0 adtago.s3.amazonaws.com
 0.0.0.0 analyticsengine.s3.amazonaws.com
@@ -949,5 +952,5 @@
 0.0.0.0 dk9ps7goqoeef.cloudfront.net
 0.0.0.0 f.media-amazon.com
 0.0.0.0 mpognobbkildjkofajifpdfhcoklimli
-
+0.0.0.0 quadro.burda-forward.de
 #0.0.0.0 
