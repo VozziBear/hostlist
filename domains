@@ -77,7 +77,7 @@
 0.0.0.0 smetrics.samsung.com
  
 # Spotify
-0.0.0.0 api-partner.spotify.com
+#0.0.0.0 api-partner.spotify.com
 
 # PayPal
 0.0.0.0 t.paypal.com
