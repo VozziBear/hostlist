@@ -1,956 +1,754 @@
-||godkc.com^$document
-r[0-9-]-sn-[a-z0-9]-[0-9a-z]{4}.googlevideo.com
-r[0-9]--sn-[a-z0-9]-[0-9a-z]{4}.googlevideo.com
-
-
-0.0.0.0 adtago.s3.amazonaws.com
-0.0.0.0 analyticsengine.s3.amazonaws.com
-0.0.0.0 analytics.s3.amazonaws.com
-0.0.0.0 advice-ads.s3.amazonaws.com
-0.0.0.0 affiliationjs.s3.amazonaws.com
-0.0.0.0 advertising-api-eu.amazon.com
-0.0.0.0 amazonclix.com
-0.0.0.0 pagead2.googlesyndication.com
-0.0.0.0 adservice.google.com
-0.0.0.0 pagead2.googleadservices.com
-0.0.0.0 afs.googlesyndication.com
-0.0.0.0 stats.g.doubleclick.net
-0.0.0.0 ad.doubleclick.net
-0.0.0.0 static.doubleclick.net
-0.0.0.0 m.doubleclick.net
-0.0.0.0 m.doubleclick.net
-0.0.0.0 mediavisor.doubleclick.net
-0.0.0.0 ads30.adcolony.com
-0.0.0.0 adc3-launch.adcolony.com
-0.0.0.0 events3alt.adcolony.com
-0.0.0.0 wd.adcolony.com  
-0.0.0.0 static.media.net
-0.0.0.0 media.net
-0.0.0.0 adservetx.media.net
-0.0.0.0 analytics.google.com
-0.0.0.0 click.googleanalytics.com
-0.0.0.0 google-analytics.com
-0.0.0.0 ssl.google-analytics.com
-0.0.0.0 adm.hotjar.com
-0.0.0.0 identify.hotjar.com
-0.0.0.0 insights.hotjar.com
-0.0.0.0 script.hotjar.com
-0.0.0.0 surveys.hotjar.com
-0.0.0.0 careers.hotjar.com
-0.0.0.0 events.hotjar.io
-0.0.0.0 mouseflow.com
-0.0.0.0 cdn.mouseflow.com
-0.0.0.0 o2.mouseflow.com
-0.0.0.0 gtm.mouseflow.com
-0.0.0.0 api.mouseflow.com
-0.0.0.0 tools.mouseflow.com
-0.0.0.0 cdn-test.mouseflow.com
-0.0.0.0 freshmarketer.com
-0.0.0.0 claritybt.freshmarketer.com
-0.0.0.0 fwtracks.freshmarketer.com
-0.0.0.0 luckyorange.com
-0.0.0.0 api.luckyorange.com
-0.0.0.0 realtime.luckyorange.com
-0.0.0.0 cdn.luckyorange.com
-0.0.0.0 w1.luckyorange.com
-0.0.0.0 upload.luckyorange.net
-0.0.0.0 cs.luckyorange.net
-0.0.0.0 settings.luckyorange.net
-0.0.0.0 stats.wp.com
-0.0.0.0 notify.bugsnag.com
-0.0.0.0 sessions.bugsnag.com
-0.0.0.0 api.bugsnag.com
-0.0.0.0 app.bugsnag.com
-0.0.0.0 browser.sentry-cdn.com
-0.0.0.0 app.getsentry.com
-0.0.0.0 pixel.facebook.com
-0.0.0.0 an.facebook.com
-0.0.0.0 static.ads-twitter.com
-0.0.0.0 ads-api.twitter.com
-0.0.0.0 ads.linkedin.com
-0.0.0.0 analytics.pointdrive.linkedin.com
-0.0.0.0 ads.pinterest.com
-0.0.0.0 log.pinterest.com
-0.0.0.0 ads-dev.pinterest.com
-0.0.0.0 analytics.pinterest.com
-0.0.0.0 analytics.pinterest.comanalytics.pinterest.com
-0.0.0.0 trk.pinterest.com
-0.0.0.0 widgets.pinterest.com
-#0.0.0.0 events.reddit.com
-#0.0.0.0 events.redditmedia.com
-0.0.0.0 ads.youtube.com  
-0.0.0.0 ads-api.tiktok.com
-0.0.0.0 analytics.tiktok.com
-0.0.0.0 ads-sg.tiktok.com
-0.0.0.0 analytics-sg.tiktok.com
-0.0.0.0 business-api.tiktok.com
-0.0.0.0 ads.tiktok.com
-0.0.0.0 log.byteoversea.com
-0.0.0.0 ads.yahoo.com
-0.0.0.0 analytics.yahoo.com
-0.0.0.0 geo.yahoo.com
-0.0.0.0 udc.yahoo.com
-0.0.0.0 udcm.yahoo.com
-0.0.0.0 analytics.query.yahoo.com
-0.0.0.0 partnerads.ysm.yahoo.com
-0.0.0.0 log.fc.yahoo.com
-0.0.0.0 gemini.yahoo.com
-0.0.0.0 adtech.yahooinc.com
-0.0.0.0 ads.yap.yahoo.com  
-0.0.0.0 extmaps-api.yandex.net
-0.0.0.0 appmetrica.yandex.ru
-0.0.0.0 adfstat.yandex.ru
-0.0.0.0 metrika.yandex.ru
-0.0.0.0 offerwall.yandex.net
-0.0.0.0 adfox.yandex.ru
-0.0.0.0 analytics.mobile.yandex.net
-0.0.0.0 appmetrica.yandex.com
-0.0.0.0 auction.unityads.unity3d.com
-0.0.0.0 webview.unityads.unity3d.com
-0.0.0.0 config.unityads.unity3d.com
-0.0.0.0 adserver.unityads.unity3d.com
-0.0.0.0 iot-eu-logser.realme.com
-0.0.0.0 iot-logser.realme.com
-0.0.0.0 bdapi-ads.realmemobile.com
-0.0.0.0 bdapi-in-ads.realmemobile.com
-0.0.0.0 api.ad.xiaomi.com
-0.0.0.0 data.mistat.xiaomi.com
-0.0.0.0 data.mistat.india.xiaomi.com
-0.0.0.0 data.mistat.rus.xiaomi.com
-0.0.0.0 sdkconfig.ad.xiaomi.com
-0.0.0.0 sdkconfig.ad.intl.xiaomi.com
-0.0.0.0 tracking.rus.miui.com
-0.0.0.0 metrics.data.hicloud.com
-0.0.0.0 metrics1.data.hicloud.com
-0.0.0.0 metrics2.data.hicloud.com
-0.0.0.0 metrics3.data.hicloud.com
-0.0.0.0 metrics4.data.hicloud.com
-0.0.0.0 metrics5.data.hicloud.com
-0.0.0.0 grs.hicloud.com
-0.0.0.0 logservice.hicloud.com
-0.0.0.0 logservice1.hicloud.com
-0.0.0.0 metrics-dra.dt.hicloud.com
-0.0.0.0 logbak.hicloud.com
-0.0.0.0 adsfs.oppomobile.com
-0.0.0.0 adx.ads.oppomobile.com
-0.0.0.0 ck.ads.oppomobile.com
-0.0.0.0 data.ads.oppomobile.com
-0.0.0.0 click.oneplus.cn
-0.0.0.0 click.oneplus.com
-0.0.0.0 open.oneplus.net  
-0.0.0.0 iadsdk.apple.com
-0.0.0.0 metrics.icloud.com
-0.0.0.0 metrics.mzstatic.com
-0.0.0.0 api-adservices.apple.com
-0.0.0.0 books-analytics-events.apple.com
-0.0.0.0 weather-analytics-events.apple.com
-0.0.0.0 notes-analytics-events.apple.com
-0.0.0.0 metrics.apple.com
-0.0.0.0 securemetrics.apple.com
-0.0.0.0 supportmetrics.apple.com
-0.0.0.0 samsungads.com
-0.0.0.0 smetrics.samsung.com
-0.0.0.0 nmetrics.samsung.com
-0.0.0.0 samsung-com.112.2o7.net
-0.0.0.0 analytics-api.samsunghealthcn.com
-0.0.0.0 ad.samsungadhub.com
-0.0.0.0 samsungadhub.com
-0.0.0.0 nmetrics.samsung.com
-0.0.0.0 business.samsungusa.com
-0.0.0.0 analytics.samsungknox.com
-0.0.0.0 config.samsungads.com
-0.0.0.0 a.magsrv.com
-0.0.0.0 ads.viralize.tv
-0.0.0.0 flepquix.com
-0.0.0.0 trixblocka.com
-0.0.0.0 ad.yieldlab.net
-0.0.0.0 ib.adnxs.com
-0.0.0.0 prg.smartadserver.com
-0.0.0.0 s.ad.twinrdengine.com
-0.0.0.0 www.googletagmanager.com
-0.0.0.0 ads.exoclick.com
-0.0.0.0 www3.smartadserver.com
-0.0.0.0 a.orbsrv.com
-0.0.0.0 fastlane.rubiconproject.com
-0.0.0.0 adsdk.microsoft.com
-0.0.0.0 imagesrv.adition.com
-0.0.0.0 securepubads.g.doubleclick.net
-0.0.0.0 c.amazon-adsystem.com
-0.0.0.0 csync.smartadserver.com
-0.0.0.0 prebid.adnxs.com
-0.0.0.0 tv.springserve.com
-0.0.0.0 ads.stickyadstv.com
-0.0.0.0 benelph.de
-0.0.0.0 s.magsrv.com
-0.0.0.0 cdn.tsyndicate.com
-0.0.0.0 cdn.tapioni.com
-0.0.0.0 googleads.g.doubleclick.net
-0.0.0.0 image8.pubmatic.com
-0.0.0.0 onetag-sys.com
-0.0.0.0 pixel.rubiconproject.com
-0.0.0.0 cdn.id5-sync.com
-0.0.0.0 tsyndicate.com
-0.0.0.0 acdn.adnxs.com
-0.0.0.0 static.criteo.com
-0.0.0.0 sync.1rx.io
-0.0.0.0 ad.twinrdengine.com
-0.0.0.0 adx.adform.net
-0.0.0.0 aax-eu.amazon-adsystem.com
-0.0.0.0 secure.adnxs.com
-0.0.0.0 ad.360yield.com
-0.0.0.0 cm.adform.net
-0.0.0.0 ssbsync-global.smartadserver.com
-0.0.0.0 htlb.casalmedia.com
-0.0.0.0 match.adsrvr.org
-0.0.0.0 pubads.g.doubleclick.net
-0.0.0.0 eu-west-1.rtb.gumgum.com
-0.0.0.0 9l6ha.ads.tremorhub.com
-0.0.0.0 9I6ha.ads.tremorhub.com
-0.0.0.0 ads.pubmatic.com
-0.0.0.0 eus.rubiconproject.com
-0.0.0.0 prebid-server.rubiconproject.com
-0.0.0.0 pub.doubleverify.com
-0.0.0.0 csi.gstatic.com
-0.0.0.0 functions.adnami.io
-0.0.0.0 a.adtng.com
-0.0.0.0 bidder.criteo.com
-0.0.0.0 static.chartbeat.com
-0.0.0.0 tpc.googlesyndication.com
-0.0.0.0 tpsc-video-eu.doubleverify.com
-0.0.0.0 static.emsservice.de
-0.0.0.0 a.real.srv.com
-0.0.0.0 cm.g.doubleclick.net
-0.0.0.0 creative.reebr.com
-0.0.0.0 dpm.demdex.net
-0.0.0.0 pbs.publischers.tremorhub.com
-0.0.0.0 sb.scorecardresearch.com
-0.0.0.0 btloader.com
-0.0.0.0 gum.criteo.com
-0.0.0.0 hbopenbid.pubmatic.com
-0.0.0.0 i.connectad.io
-0.0.0.0 tlx.3lift.com
-0.0.0.0 widgets.outbrain.com
-0.0.0.0 aax.amazon-adsystem.com
-0.0.0.0 adsxtits.com
-0.0.0.0 cdn.hadronid.net
-0.0.0.0 cdntrf.com
-0.0.0.0 config.aps.amazon-adsystem.com
-0.0.0.0 csync-global.smartadserver.com
-0.0.0.0 optimized-by.rubiconproject.com
-0.0.0.0 rtb.gumgum.com
-0.0.0.0 script.ioam.de
-0.0.0.0 secure.cdn.fastclick.net
-0.0.0.0 ssbsync.smartadserver.com
-0.0.0.0 www.google-analytics.com
-0.0.0.0 one.iugbhsu.com
-0.0.0.0 ssp-sync.criteo.com
-0.0.0.0 connect.facebook.net
-0.0.0.0 creativecdn.com
-0.0.0.0 prebid.cwi.re
-0.0.0.0 www.freeporn8.com
-0.0.0.0 a.teads.tv
-0.0.0.0 iqdigital.demdex.net
-0.0.0.0 monetize-static.viralize.tv
-0.0.0.0 rumcdn.geoedge.be
-0.0.0.0 ads.us.e-planning.net
-0.0.0.0 creative.xlivrdr.com
-0.0.0.0 eb2.3lift.com
-0.0.0.0 grid-bidder.criteo.com
-0.0.0.0 ih.adscale.de
-0.0.0.0 lcdn.tsyndicate.com
-0.0.0.0 metricswpsh.com
-0.0.0.0 t.himuhi.my
-0.0.0.0 www8.smartadserver.com
-0.0.0.0 adalliance.profiles.tagger.opecloud.com
-0.0.0.0 api2.amplitude.com
-0.0.0.0 cm.adsafety.net
-0.0.0.0 g2.gumgum.com
-0.0.0.0 pixel.adsafeprotected.com
-0.0.0.0 static.cloudflareinsights.com
-0.0.0.0 ads.yieldmo.com
-0.0.0.0 amplify.outbrain.com
-0.0.0.0 b1h-euc1.zemanta.com
-0.0.0.0 bh.contextweb.com
-0.0.0.0 cdn.opecloud.com
-0.0.0.0 csync.smilewanted.com
-0.0.0.0 delivery.redpineapplemedia.com
-0.0.0.0 hb.adscale.de
-0.0.0.0 id5-sync.com
-0.0.0.0 imasdk.googleapis.com
-0.0.0.0 match.sharethrough.com
-0.0.0.0 mp.4dex.io
-0.0.0.0 prebid-match.dotomi.com
-0.0.0.0 prebid.a-mo.net
-0.0.0.0 rtb.openx.net
-0.0.0.0 s.ad.smaato.net
-0.0.0.0 s.seedtag.com
-0.0.0.0 secure-assets.rubiconproject.com
-0.0.0.0 ssum.casalemedia.com
-0.0.0.0 sync.adotmob.com
-0.0.0.0 tag.adkernel.com
-0.0.0.0 tag.crwdcntrl.net
-0.0.0.0 token.rubiconproject.com
-0.0.0.0 viptube.com
-0.0.0.0 visitor.omnitagjs.com
-0.0.0.0 x.bidswitch.net
-0.0.0.0 a.pemsrv.com
-0.0.0.0 cdn.taboola.com
-0.0.0.0 mc.yandex.ru
-0.0.0.0 t.rewice.uno
-0.0.0.0 ad.doubleclick.net
-0.0.0.0 ap.lijit.com
-0.0.0.0 app.gggpht.com 
-0.0.0.0 b-code.liadm.com
-0.0.0.0 b1sync.zemanta.com
-0.0.0.0 bilder-a.akamaihd.net
-0.0.0.0 cdn.connectad.io
-0.0.0.0 cdn.doubleverify.com
-0.0.0.0 cdn.twinrdsyte.com
-0.0.0.0 fp.metricswpsh.com
-0.0.0.0 id.lcdn.com
-0.0.0.0 im.chip.de
-0.0.0.0 j7q313hy22.kameleoon.eu
-0.0.0.0 js.adsrvr.org
-0.0.0.0 maucn.yomeno.xyz
-0.0.0.0 pbs-cs.yellowblue.io
-0.0.0.0 pghub.io
-0.0.0.0 rtb-csync.smartadserver.com
-0.0.0.0 s.hs-data.com
-0.0.0.0 script.4dex.io
-0.0.0.0 static.ads-twitter.com
-0.0.0.0 static.trafficjunky.com
-0.0.0.0 stats.g.doubleclick.net
-0.0.0.0 sync.richaudience.com
-0.0.0.0 t.jibeno.xyz
-0.0.0.0 t.uimserv.net
-0.0.0.0 tagesspiegel.tt.omtrdc.net
-0.0.0.0 vast.doubleverify.com
-0.0.0.0 www.googleoptimize.com
-0.0.0.0 yagiay.com
-0.0.0.0 zipservice.adalliance.io
-0.0.0.0 a.eunow4u.com
-0.0.0.0 as.sexad.net
-0.0.0.0 atonato.de
-0.0.0.0 cdn-a.yieldlove.com
-#0.0.0.0 cdn.jsdelivr.net
-0.0.0.0 cs.pgammedia.com
-0.0.0.0 hbx.media.net
-0.0.0.0 pdw-usr.userreport.com
-0.0.0.0 sak.userreport.com
-0.0.0.0 trc.taboola.com
-0.0.0.0 ups.analytics.yahoo.com
-0.0.0.0 us.ck-ie.com
-0.0.0.0 wmcdpt.com
-0.0.0.0 a.crazyporn.xxx
-0.0.0.0 accuweather-com.videoplayerhub.com
-0.0.0.0 ad3.adfarm1.adition.com
-0.0.0.0 adobedc.demdex.net
-0.0.0.0 api.permutive.com
-0.0.0.0 awecre.com
-0.0.0.0 cd.connatix.com
-0.0.0.0 cdn.optimizely.com 
-0.0.0.0 cookies.nextmillmedia.com
-0.0.0.0 dsp-cookie.adfarm1.adition.com
-0.0.0.0 dsp-services.admatic.com.tr
-0.0.0.0 dx6ctphzljkf1.cloudfront.net
-0.0.0.0 equativ-match.dotomi.com
-0.0.0.0 eu-u.openx.net
-0.0.0.0 eum.instana.io
-0.0.0.0 euw1.smartadserver.comm
-0.0.0.0 events.ocdn.eu
-0.0.0.0 g4.plibcdn.com
-0.0.0.0 getscriptjs.com
-0.0.0.0 image6.pubmatic.com
-0.0.0.0 images.t-online.de
-0.0.0.0 js-sec.indexww.com
-0.0.0.0 js.appboycdn.com
-0.0.0.0 macro.adnami.io
-0.0.0.0 mafo.adalliance.io
-0.0.0.0 micro.rubiconproject.com
-0.0.0.0 nkfinsdg.com
-0.0.0.0 omst.crazyporn.xxx
-0.0.0.0 ostm.love4porn.com
-0.0.0.0 region1.google-analytics.com
-0.0.0.0 responder.wt-safetag.com
-0.0.0.0 ssum-sec.casalemedia.com
-0.0.0.0 sync.connectad.io
-0.0.0.0 sync.kueezrtb.com
-0.0.0.0 syndication.exosrv.co
-0.0.0.0 tag.bliink.io
-0.0.0.0 tps.doubleverify.com
-0.0.0.0 track.adform.net
-0.0.0.0 www.adwin1.com
-0.0.0.0 www.dwin1.com
-0.0.0.0 www3.doubleclick.net
-0.0.0.0 a.adspector.io
-0.0.0.0 a.bf-ad.net
-0.0.0.0 ad.turn.com
-0.0.0.0 adv.clickadu.net
-0.0.0.0 amsterdam.xhamster.desi
-0.0.0.0 assets.sn.com
-0.0.0.0 c2.taboola.com
-0.0.0.0 cdn.permutive.com
-0.0.0.0 cdn.speedcurve.com
-0.0.0.0 cms.quantserve.com
-0.0.0.0 cookiesync.api.bliink.io
-0.0.0.0 ctwmed.com
-0.0.0.0 dis.criteo.com
-0.0.0.0 get.s-onetag.com
-0.0.0.0 hgc-cf-cache-1.svonm.com
-0.0.0.0 lmyd3iz3qn.kameleoon.eu
-0.0.0.0 media.trafficjunky.net
-0.0.0.0 n-tv.mete.vgwort.de
-0.0.0.0 n2.clips4sale.com
-0.0.0.0 player.target.video.com
-0.0.0.0 px.ads.linkedin.com
-0.0.0.0 s.pemserv.com
-0.0.0.0 snap.licdn.com
-0.0.0.0 sr-client-cfg.amplitude.com
-0.0.0.0 ssl-heise.met.vgwort.de
-0.0.0.0 static.hotjar.com
-0.0.0.0 tag.wknd.ai
-0.0.0.0 tagesspiegel.met.vgwort.de
-0.0.0.0 trustberrie.com
-0.0.0.0 try.abtasty.com
-0.0.0.0 vast.yomeno.xyz
-0.0.0.0 vg01.met.vgwort.de
-0.0.0.0 video.saawsedge.co
-0.0.0.0 video.xlviirdr.co
-0.0.0.0 www.clarity.ms
-0.0.0.0 www.googleadservices.co
-#0.0.0.0 www.redditstatic.com
-0.0.0.0 xsoktpyi.com
-0.0.0.0 yxsu5ufd2m.kameleoon.eu
-0.0.0.0 z0000g.yorkvillemarketing.net
-0.0.0.0 zeit.met.vgwort.de
-0.0.0.0 criteo.net
-0.0.0.0 sp-spiegel-de.spiegel.de
-0.0.0.0 assets.adobedtm.com
-0.0.0.0 static.criteo.net
-0.0.0.0 orbidder.otto.de
-0.0.0.0 yieldlab.de
-0.0.0.0 brwsrfrm.com
-0.0.0.0 m.exactag.com
-0.0.0.0 vfd2dyn.vodafone.de
-0.0.0.0 jubbie.de
-0.0.0.0 untho.de
-0.0.0.0 adnxs.com
-0.0.0.0 chartbeat.com
-0.0.0.0 gumgum.com
-0.0.0.0 opecloud.com
-0.0.0.0 buyer.dspx.tv
-0.0.0.0 metrics.n-tv.de
-0.0.0.0 p.vtracy.de
-0.0.0.0 sourcepoint.n-tv.de
-0.0.0.0 te-static.technical-service.net
-0.0.0.0 amazon-adsystem.com
-0.0.0.0 doubleclick.net
-0.0.0.0 doubleverify.com
-0.0.0.0 kameleoon.eu
-0.0.0.0 eu-west-1-rtb.gumgum.com
-0.0.0.0 googletagmanager.com
-0.0.0.0 cdn-gl.nmrodam.com
-0.0.0.0 data-99329e3cb2.welt.de
-0.0.0.0 domself.de
-0.0.0.0 welt.personalstream.tv
-0.0.0.0 s3.amazonaws.com
-0.0.0.0 ast.welt.de
-0.0.0.0 cdn-eu.piano.io
-0.0.0.0 tags.focus.de
-0.0.0.0 4dex.io
-0.0.0.0 criteo.com
-0.0.0.0 rubiconproject.com
-0.0.0.0 3lift.com
-0.0.0.0 connectad.io
-0.0.0.0 pubmatic.com
-0.0.0.0 visx.net
-0.0.0.0 data-fb7f8b3ae8.heise.de
-0.0.0.0 fast.nexx360.io
-0.0.0.0 files.upscore.com
-0.0.0.0 hl.upscore.com
-0.0.0.0 pbc.agma-analytics.de
-0.0.0.0 responder.wt.heise.de
-0.0.0.0 adscale.de
-0.0.0.0 casalemedia.com
-0.0.0.0 indexww.com
-0.0.0.0 seedtag.com
-0.0.0.0 teads.tv
-0.0.0.0 yieldlab.net
-0.0.0.0 ad.yieldlab.com
-0.0.0.0 heise.cloudimg.io
-0.0.0.0 htlb.calsalemedia.com
-0.0.0.0 static-eu.cleverpush.com
-0.0.0.0 fourier.aliexpress.com
-0.0.0.0 taobao.com
-0.0.0.0 aplus.aliexpress.com
-0.0.0.0 assets.aliexpress-media.com
-0.0.0.0 s.click.aliexpress.com
-0.0.0.0 alicdn.com
-0.0.0.0 ad.servetag.com
-0.0.0.0 mcs16-normal-no1a.tiktokw.eu
-0.0.0.0 mon-i18n.tiktokv.com
-0.0.0.0 sf16-website-login.neutral.ttwstatic.com
-0.0.0.0 o418887.ingest.setntry.io
-0.0.0.0 w3-reporting.reddit.com
-0.0.0.0 svonm.com
-0.0.0.0 asadcdn.com
-0.0.0.0 united-infos.net
-0.0.0.0 wa.gmx.net
-0.0.0.0 criteo.net
-0.0.0.0 absys.web.de
-0.0.0.0 img.ui-portal.de
-0.0.0.0 js.ui-portal.de
-0.0.0.0 trace-proxy.mam.dev
-0.0.0.0 wa.web.de
-0.0.0.0 adition.com
-0.0.0.0 s.uicdn.com
-0.0.0.0 i0.web.de
-0.0.0.0 epimetheus.navigator.gmx.net
-0.0.0.0 ymprove.gmx.net
-0.0.0.0 scontent.xx.fbcdn.net
-0.0.0.0 curation-welt-static.curation.deepthought.cloud
-0.0.0.0 rusty-heartbeat.services.ps.axelspringer.de
-0.0.0.0 usercentrics.eu
-0.0.0.0 api.usercentrics.eu
-0.0.0.0 aggregator.service.usercentrics.eu
-0.0.0.0 stats.computop.com
-0.0.0.0 uct.service.usercentrics.eu
-0.0.0.0 o4507427284123728.ingest.de.sentry.io
-0.0.0.0 static.zdassets.com
-0.0.0.0 eventgw.us1.twilio.com
-0.0.0.0 cdn.segment.com
-0.0.0.0 assets.zendesk.com
-0.0.0.0 apps.zdusercontent.com.204239
-0.0.0.0 apps.zdusercontent.com.35111
-0.0.0.0 apps.zdusercontent.com.6846
-0.0.0.0 aet.spotify.com
-0.0.0.0 ads.spotify.com
-0.0.0.0 cdn.confiant-integrations.net
-0.0.0.0 t.visx.net
-0.0.0.0 c1.adform.net
-0.0.0.0 js.adscale.de
-0.0.0.0 u.openx.net
-0.0.0.0 ms-cookie-sync.presage.io
-0.0.0.0 ssl-golem.met.vgwort.de
-0.0.0.0 googleadservices.com
-0.0.0.0 adnz.co
-0.0.0.0 geoip.user.public.finanzen2.net
-0.0.0.0 shared-components.finanzen.net
-0.0.0.0 at.teads.tv
-0.0.0.0 id.a-mx.com
-0.0.0.0 frantro.de
-0.0.0.0 yasen.hotellook.com
-0.0.0.0 awin1.com
-0.0.0.0 infinity-c41.youboranqs01.com #evtl. entfernen
-0.0.0.0 counter.yadro.ru
-0.0.0.0 q0jo16uy1r.data.adobedc.net
-0.0.0.0 bat.bing.com
-0.0.0.0 spiegel.de.ssl.sc.omtrdc.net #evtl entfernen
-0.0.0.0 iqdigital-cdn.relevant-digital.com
-0.0.0.0 collector.xhamster.desi
-0.0.0.0 buzzer.xhamster.desi
-0.0.0.0 fh-wgt.com
-0.0.0.0 o245575.ingest.sentry.io
-0.0.0.0 mc.webvisor.org
-0.0.0.0 toplist.cz
-0.0.0.0 directory.cookieyes.com
-0.0.0.0 log.cookieyes.com
-0.0.0.0 go.fxmnba.com
-0.0.0.0 l4s.love4porn.com
-0.0.0.0 zendesk-eu.my.sentry.io
-0.0.0.0 cpx.golem.de
-0.0.0.0 remp-beam.golem.de
-0.0.0.0 robert.golem.de
-0.0.0.0 d.ba-content.de
-0.0.0.0 hirsung.de
-0.0.0.0 htlb.casalemedia.com
-0.0.0.0 cdn.nexx360-static.io
-0.0.0.0 www.asadcdn.com
-0.0.0.0 relay-client-c03.iocnt.net
-0.0.0.0 metrics.n-tv.de
-0.0.0.0 dyn.emetriq.de
-0.0.0.0 rr1---sn-q4fl6nsl.googlevideo.com
-0.0.0.0 data-bb21a2f11b.bild.de
-0.0.0.0 5baf1288cf.dl8.me
-0.0.0.0 static.cleverpush.com
-0.0.0.0 cpg-cdn.com
-0.0.0.0 applets.ebxcdn.com
-0.0.0.0 kr.met.vgwort.de
-0.0.0.0 s3.eu-central-1.amazonaws.com # evtl. entfernen
-0.0.0.0 vg03.met.vgwort.de
-0.0.0.0 slb-vgwort-de-pool03.vgwort-de.2cnt.net
-0.0.0.0 data-501446ac98.t-online.de
-0.0.0.0 fsc.adscale.de
-0.0.0.0 tracking.m6r.eu
-0.0.0.0 d.nativendo.de
-0.0.0.0 dmp.theadex.com
-0.0.0.0 ssl-t-online.met.vgwort.de
-0.0.0.0 iqmetrics.spiegel.de
-0.0.0.0 sams.spiegel.de
-0.0.0.0 q0jo16uy1r.data.adobedc.net
-0.0.0.0 cdn.adswizz.com
-0.0.0.0 synchrobox.adswizz.com
-0.0.0.0 cl.k5a.io
-0.0.0.0 api.datahub-srgssr.ch
-0.0.0.0 s.go-mpulse.net
-0.0.0.0 data-f1e447fbcf.fr.de
-0.0.0.0 d2wu036mkcz52n.cloudfront.net
-0.0.0.0 stats.traffective.cloud
-0.0.0.0 data-502d5cce76.taz.de
-0.0.0.0 d.rp-online.de
-0.0.0.0 data-043610b415.rp-online.de
-0.0.0.0 data-497ecca600.rp-online.de
-0.0.0.0 cdn.cxense.com
-0.0.0.0 tagrpd.de
-0.0.0.0 d.smartico.one
-0.0.0.0 cdn.exitbee.com
-0.0.0.0 ad.solarserver.de
-0.0.0.0 vi.ml314.com
-0.0.0.0 scripts.opti-digital.com
-0.0.0.0 analytics.ahrefs.com
-0.0.0.0 cdn.firstpromoter.com
-0.0.0.0 plausible.io
-0.0.0.0 q.stripe.com
-0.0.0.0 data-7462ea72ec.augsburger-allgemeine.de
-0.0.0.0 de-gmtdmp.mookie1.com
-0.0.0.0 static.wlct-one.de
-0.0.0.0 notifpush.com
-0.0.0.0 simetra.tracking.ringieraxelspringer.tech
-0.0.0.0 tvpgapl.hit.gemius.pl  
-0.0.0.0 tvppl.hit.gemius.pl
-0.0.0.0 fundingchoicesmessages.google.com
-0.0.0.0 tagan.adlightning.com
-0.0.0.0 client.aps.amazon-adsystem.com
-0.0.0.0 s.skimresources.com
-0.0.0.0 pixiedust.buzzfeed.com
-0.0.0.0 5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app
-0.0.0.0 p.typekit.net
-0.0.0.0 ad-ipd.sxp.smartclip.net
-0.0.0.0 lma.npaw.com
-0.0.0.0 o4507423443189760.ingest.de.sentry.io
-0.0.0.0 cdn.scarabresearch.com
-0.0.0.0 data-5e5ac4ec65.menshealth.de
-0.0.0.0 data-cb2c174131.menshealth.de
-0.0.0.0 matomo.menshealth.de
-0.0.0.0 gadata.motorpresse.de
-0.0.0.0 plausible.motorpresse.de
-0.0.0.0 sdk.mrf.io
-0.0.0.0 n-tv.met.vgwort.de
-0.0.0.0 eu-west-3.xhamster.desi
-0.0.0.0 us-west-2.xhamster.desi
-0.0.0.0 go.mnaspm.com
-0.0.0.0 s.optvz.com
-0.0.0.0 a.realsrv.com
-0.0.0.0 as.air2s.com
-0.0.0.0 fallback.xhamster.desi
-0.0.0.0 tpdwm.com
-0.0.0.0 ae3e0a05489629f1f964cefa05fb463f.scashwl.com
-0.0.0.0 cdn.banhq.com
-0.0.0.0 a.crme7srv.com
-0.0.0.0 live.quixova.com
-0.0.0.0 aoalmfwinbsstec23.com
-0.0.0.0 cdn.impactserving.com
-0.0.0.0 creative.boyfriend.show
-0.0.0.0 a.ahort.xyz
-0.0.0.0 abt.s3.yandex.net
-0.0.0.0 s.8jfbt5va3r.com
-0.0.0.0 go.niscprts.com
-0.0.0.0 engine.trialhd.com
-0.0.0.0 vast.vstserv.com
-0.0.0.0 go.rmhfrtnd.com
-0.0.0.0 32a8556589c8a177ccfa2da8a0d5a231.scashwl.com
-0.0.0.0 adv.drtuber.com
-0.0.0.0 t.hepelu.my
-0.0.0.0 bilder11.markt.de
-0.0.0.0 cdn.adspirit.de
-0.0.0.0 cdn.feed.solads.media
+# google.com
 0.0.0.0 csp.withgoogle.com
-0.0.0.0 log.dpa.com
-0.0.0.0 euronewsgroup.d3.sc.omtrdc.net
-0.0.0.0 de-config.sensic.net
-0.0.0.0 logs1409.xiti.com
-0.0.0.0 data-df5a2bcc30.aerzteblatt.de
-0.0.0.0 tag.aticdn.net
-0.0.0.0 71c48eaee4f848efa24fff0e1a6635a0.apm.westeurope.azure.elastic-cloud.com
-0.0.0.0 data-ecb5249bb2.falter.at
-0.0.0.0 tracker.falter.at
-0.0.0.0 cdn.usefathom.com
-0.0.0.0 wni4spsbqo.kameleoon.eu
-0.0.0.0 graph.instagram.com
-0.0.0.0 tms.danzz.ch
-0.0.0.0 cdn.moengage.com
-0.0.0.0 www.npttech.com
-0.0.0.0 content.zeotap.com
+0.0.0.0 play.google.com
+0.0.0.0 googleads.g.doubleclick.net
+0.0.0.0 static.doubleclick.net
+0.0.0.0 www.googleadservices.com
+0.0.0.0 googleadservices.com
+0.0.0.0 tpc.googlesyndication.com
+0.0.0.0 www.googletagmanager.com
+0.0.0.0 googletagmanager.com
+0.0.0.0 pagead2.googlesyndication.com
+0.0.0.0 securepubads.g.doubleclick.net
+0.0.0.0 g.live.com
+0.0.0.0 www.google-analytics.com
+0.0.0.0 google-analytics.com
+0.0.0.0 www.googleoptimize.com
 0.0.0.0 googleoptimize.com
-0.0.0.0 o22381.ingest.sentry.io
-0.0.0.0 beyondwickedmapping.org
-0.0.0.0 htlbid.com
-0.0.0.0 prodregistryv2.org
-0.0.0.0 librato-collector.genius.com
-0.0.0.0 cdn.adsafeprotected.com
-0.0.0.0 ads.assemblyexchange.com
-0.0.0.0 i.clean.gg
-0.0.0.0 api-js.mixpanel.com
-0.0.0.0 live.primis.tech
-0.0.0.0 secure.quantserve.com
-0.0.0.0 srv.tunefindforfans.com
-0.0.0.0 o4504875580850176.ingest.us.sentry.io
-0.0.0.0 cloud.umami.is
-0.0.0.0 runforrest.4p.de
-0.0.0.0 cdn.stroeerdigitalgroup.de
-0.0.0.0 cdn.lib.getjad.io
-0.0.0.0 data-d543661da8.oe24.at
-0.0.0.0 tracking.oe24.at
-0.0.0.0 oe24-cdn.relevant-digital.com
-0.0.0.0 o432808.ingest.sentry.io
-0.0.0.0 cdn-header-bidding.snack-media.com
-0.0.0.0 data-17c7ec5f16.giga.de
-0.0.0.0 utiq.giga.de
-0.0.0.0 quiz.stroeermediabrands.de
-0.0.0.0 pg.ignimgs.com
-0.0.0.0 scripts.simpleanalyticscdn.com
-0.0.0.0 alb.reddit.com
-0.0.0.0 scripts.mediavine.com
-0.0.0.0 o1040326.ingest.sentry.io
-0.0.0.0 cdn4.userzoom.com
-0.0.0.0 d2o5idwacg3gyw.cloudfront.net
-0.0.0.0 db7q4jg5rkhk8.cloudfront.net
-0.0.0.0 cdn0.forter.com
-0.0.0.0 cdn3.forter.com
-0.0.0.0 77ee068b6863.cdn4.forter.com
-0.0.0.0 siteperformancetest.net
-0.0.0.0 data-f1e447fbcf.merkur.de
-0.0.0.0 clickstream-api.folderz.nl
-0.0.0.0 mon-va.byteoversea.com
-0.0.0.0 ingress.linktr.ee
-0.0.0.0 m.tiktok.com
-0.0.0.0 pushpad.xyz
-0.0.0.0 backupstatic.twincdn.com
-0.0.0.0 static2.twincdn.com
-0.0.0.0 static.twincdn.com
-0.0.0.0 data-f1e447fbcf.ruhr24.de
-0.0.0.0 dynamic.criteo.com
-0.0.0.0 d.finative.cloud
-0.0.0.0 etahub.com
-0.0.0.0 cdnm.techpump.com
-0.0.0.0 prophet.heise.de
-0.0.0.0 s.magic-mirror.biz
+0.0.0.0 ssl.google-analytics.com
+0.0.0.0 imasdk.googleapis.com
+0.0.0.0 cm.g.doubleclick.net
+0.0.0.0 stats.g.doubleclick.net
+0.0.0.0 region1.google-analytics.com
+0.0.0.0 rr3---sn-hgn7rnls.googlevideo.com # anpassen!!!!!
+
+# Amazon
 0.0.0.0 unagi.amazon.de
+0.0.0.0 aax-eu.amazon-adsystem.com
+0.0.0.0 aes.eu-west.ono.axp.amazon-adsystem.com
 0.0.0.0 unagi-eu.amazon.com
-0.0.0.0 mitself.net
-0.0.0.0 dd.astockcdn.net.first-party-js.datadome.co
-0.0.0.0 sentry.radyushin.com
-0.0.0.0 plw6buurmlxhrlkm6wy3uk7cia0mprkq.lambda-url.ap-south-1.on.aws
-0.0.0.0 ht-cdn.analytics.shutterstock.com
-0.0.0.0 js-agent.newrelic.com
-0.0.0.0 matomo.christin-loehner.de
-0.0.0.0 log.cookieyes.com
-0.0.0.0 mcizas.com
-0.0.0.0 amateurdough.com
-0.0.0.0 a.exosrv.com
-0.0.0.0 tpmedia-reactads.com
-0.0.0.0 creative.rmhfrtnd.com
-0.0.0.0 engine.flixtrial.com
-0.0.0.0 storage.googleapis.com
-0.0.0.0 www.googletagservices.com
-0.0.0.0 data-3eff3aac07.kino-zeit.de
-0.0.0.0 www.dwin1.com
-0.0.0.0 app.usercentrics.eu
-0.0.0.0 crs.pa.br.de
-0.0.0.0 pa.br.de
-0.0.0.0 www.otowdvfis.com
-0.0.0.0 www.eogkxhtmoctjp.com
-0.0.0.0 d2kk0o3fr7ed01.cloudfront.net
-0.0.0.0 www.betteradsystem.com
-0.0.0.0 static.virgul.com
-0.0.0.0 feed.solads.media
-0.0.0.0 chtntor.com
-0.0.0.0 widgets.cam-content.com
-0.0.0.0 tracksrv.zdf.de
-0.0.0.0 cl.t3n.de
-0.0.0.0 data-f6d2ad6f1b.t3n.de
-0.0.0.0 relay.t3n.de
-0.0.0.0 stats-dev.brid.tv
-0.0.0.0 improving.duckduckgo.com
-0.0.0.0 als-svc.nytimes.com
-0.0.0.0 a.et.nytimes.com
-0.0.0.0 dd.nytimes.com
-0.0.0.0 www.datadoghq-browser-agent.com
-0.0.0.0 mybbc-analytics.files.bbci.co.uk
-0.0.0.0 uk-script.dotmetrics.net
-0.0.0.0 edigitalsurvey.com
-0.0.0.0 prebid.the-ozone-project.com
-0.0.0.0 scripts.webcontentassessor.com
-0.0.0.0 crta.dailymail.co.uk
-0.0.0.0 cdn.sophi.io
-0.0.0.0 aqt.adalliance.io
-0.0.0.0 te.technical-service.net
-0.0.0.0 intake-analytics.wikimedia.org
-0.0.0.0 data-60d896f23d.rnd.de
-0.0.0.0 mst.rnd.de
-0.0.0.0 zn38dmhas0tmzqqj0-rnd.siteintercept.qualtrics.com
-0.0.0.0 click-performance.assets.rndtech.de
-0.0.0.0 ups.xplosion.de
-0.0.0.0 vg06.met.vgwort.de
-0.0.0.0 ad1.adfarm1.adition.com
-0.0.0.0 vqggwrz.pa-cd.com
-0.0.0.0 c.4dex.io
-0.0.0.0 www.imfernsehen.de
-0.0.0.0 mweb-hb.presage.io
-0.0.0.0 ssl-welt.met.vgwort.de
-0.0.0.0 cdn.parsely.com
-0.0.0.0 ssl-handelsblatt.met.vgwort.de
-0.0.0.0 data-e9439b5f81.ruhrnachrichten.de
-0.0.0.0 d7d3cf2e81d293050033-3dfc0615b0fd7b49143049256703bfce.ssl.cf1.rackcdn.com
-0.0.0.0 tentacles.smartocto.com
-0.0.0.0 lwqvhgk.pa-cd.com
-0.0.0.0 www.top50-solar.de
-0.0.0.0 utiq.t-online.de
-0.0.0.0 data-d6e13c60e8.orf.at
-0.0.0.0 sentry.okfn.de
-0.0.0.0 traffic.okfn.de
-0.0.0.0 pipe-collect.ebu.io
-0.0.0.0 pgxdqxq.pa-cd.com
-0.0.0.0 cdns.symplr.de
-0.0.0.0 r.stripe.com
-0.0.0.0 data-0c2107a914.profil.at
-0.0.0.0 data-b43a87d00c.businessinsider.de
-0.0.0.0 chmedia-cdn.relevant-digital.com
-0.0.0.0 smetrics.politico.eu
-0.0.0.0 data-f1e447fbcf.kreiszeitung.de
-0.0.0.0 l6nk0rtuog.kameleoon.eu
-0.0.0.0 waws-prod-bn1-165-a878.eastus2.cloudapp.azure.com
-0.0.0.0 accuweather-com.videoplayerhub.com
-0.0.0.0 event-collector.prd.data.s.joyn.de
-0.0.0.0 dani.joyn.de
-0.0.0.0 events.launchdarkly.com
-0.0.0.0 joyn.somquery.sqrt-5041.de
-0.0.0.0 a-fds.youborafds01.com
-0.0.0.0 g.3gl.net
-0.0.0.0 static.adsafeprotected.com
-0.0.0.0 direct.adsrvr.org
-0.0.0.0 cdn.brandmetrics.com
-0.0.0.0 d1get58iwmjrxx.cloudfront.net
-0.0.0.0 hb.openwebmp.com
-0.0.0.0 exchange.postrelease.com
-0.0.0.0 elb.the-ozone-project.com
-0.0.0.0 metrics.zeustechnology.com
-0.0.0.0 orca.zeustechnology.com
-0.0.0.0 pb.zeustechnology.com
-0.0.0.0 sponsorship-lines.zeustechnology.com
-0.0.0.0 wapo.zeustechnology.com
-0.0.0.0 ads-static.conde.digital
-0.0.0.0 globalservices.conde.digital
-0.0.0.0 logs.netflix.com
-0.0.0.0 a.bf-tools.net
-0.0.0.0 data-f1e447fbcf.hna.de
-0.0.0.0 xp.apple.com
-0.0.0.0 browser-intake-datadoghq.com
-0.0.0.0 js.hs-analytics.net
-0.0.0.0 js.hs-banner.com
-0.0.0.0 js.hsadspixel.net
-0.0.0.0 dotsource.piwik.pro
-0.0.0.0 sentry.get-in.dev
-0.0.0.0 walhalla.piwik.pro
+0.0.0.0 k8s-riverpro-captures-9f8dbb0ba5-1345960063.us-east-1.elb.amazonaws.com # anpassen!!!!
+0.0.0.0 c.amazon-adsystem.com
+0.0.0.0 unagi-na.amazon.com
+0.0.0.0 ipv6.unagi-na.amazon.com
+0.0.0.0 global.telemetry.insights.video.a2z.com
+0.0.0.0 s3.eu-central-1.amazonaws.com
+0.0.0.0 client.aps.amazon-adsystem.com
+0.0.0.0 config.aps.amazon-adsystem.com
+0.0.0.0 s.amazon-adsystem.com
+
+# Microsoft
+0.0.0.0 northcentralus-0.in.applicationinsights.azure.com
+0.0.0.0 www.clarity.ms
 0.0.0.0 c.msn.com
 0.0.0.0 browser.events.data.msn.com
-0.0.0.0 btloader.com
-0.0.0.0 csp.microsoft.com
-0.0.0.0 scripts.mf.webcontentassessor.com
 0.0.0.0 srtb.msn.com
-0.0.0.0 c.bing.com
-0.0.0.0 confiant.msn.com
-0.0.0.0 tags.crwdcntrl.net
-0.0.0.0 cdn.tagdeliver.com
-0.0.0.0 c1.microsoft.com
-0.0.0.0 eu-mobile.events.data.microsoft.com
-0.0.0.0 o4508134825000960.ingest.us.sentry.io
-0.0.0.0 syndicatedsearch.goog
-0.0.0.0 o28395.ingest.sentry.io
-0.0.0.0 pwc.piwik.pro
-0.0.0.0 northcentralus-0.in.applicationinsights.azure.com
+0.0.0.0 adsdk.microsoft.com
+0.0.0.0 csp.microsoft.com
 0.0.0.0 browser.events.data.microsoft.com
-0.0.0.0 s0.wp.com
-0.0.0.0 pixel.wp.com
-0.0.0.0 px1.vtrtl.de
-0.0.0.0 static.trbo.com
-0.0.0.0 ads.blogherads.com
-0.0.0.0 iabusprivacy.pmc.com
-0.0.0.0 s3-us-west-2.amazonaws.com
-0.0.0.0 dap.digitalgov.gov
-0.0.0.0 services.brid.tv
-0.0.0.0 widgets.jobbio.com
-0.0.0.0 secure.s.telegraph.co.uk
-0.0.0.0 smetrics.telegraph.co.uk
-0.0.0.0 cdn.quantummetric.com
-0.0.0.0 lib.wtg-ads.com
-0.0.0.0 usasync01.admantx.com
-0.0.0.0 8cmfzco0.micpn.com
-0.0.0.0 www.nbcudigitaladops.com
-0.0.0.0 pix.nbcuni.com
-0.0.0.0 collector-26223.us.tvsquared.com
-0.0.0.0 www.dianomi.com
-0.0.0.0 placement-prd.jwpltx.com
-0.0.0.0 s.ntv.io
-0.0.0.0 experiments.parsely.com
-0.0.0.0 507b28fb-2ef1-4c34-8bda-ba32030bb199.edge.permutive.app
-0.0.0.0 a.pub.network
-0.0.0.0 ak.sail-horizon.com
-0.0.0.0 tru.am
-0.0.0.0 metrics.brightcove.com
-0.0.0.0 browser.covatic.io
-0.0.0.0 tags.peer39.com
-0.0.0.0 znecb9ajgqf1ugx9q-skydesign.siteintercept.qualtrics.com
-0.0.0.0 s.deepl.com
-0.0.0.0 gtm.deepl.com
-0.0.0.0 o4509354486530048.ingest.de.sentry.io
-0.0.0.0 config.config-factory.com
-0.0.0.0 cmp.lemonde.fr
-0.0.0.0 cdn.amplitude.com
-0.0.0.0 telemetry.canva.com
-0.0.0.0 cdn.fuseplatform.net
-0.0.0.0 jsc.mgid.com
-0.0.0.0 pr.sendpulse.com
-0.0.0.0 gp.webformscr.com
-0.0.0.0 ad.vidverto.io
-0.0.0.0 smetrics.foxnews.com
-0.0.0.0 amp.akamaized.net
-0.0.0.0 prod.fennec.atp.fox
-0.0.0.0 metrics.beyondwords.io
-0.0.0.0 logs.browser-intake-datadoghq.com
-0.0.0.0 www.knotch-cdn.com
-0.0.0.0 foxnews.hb.omtrdc.net
-0.0.0.0 pix.pub
-0.0.0.0 static.trueanthem.com
-0.0.0.0 web.webpushs.com
-0.0.0.0 assets.poool.fr
-0.0.0.0 ophan.theguardian.com
-0.0.0.0 www.googleadservices.com
-0.0.0.0 epimetheus.navigator.web.de
-0.0.0.0 tgw.web.de
-0.0.0.0 ad11.adfarm1.adition.com
+0.0.0.0 g.msn.com
+0.0.0.0 eu-mobile.events.data.microsoft.com
+0.0.0.0 js.monitor.azure.com
+0.0.0.0 fpt.microsoft.com
+0.0.0.0 clarity.ms
+0.0.0.0 browser.pipe.aria.microsoft.com
+0.0.0.0 h-microsoft.online-metrix.net
+0.0.0.0 bat.bing.com
+0.0.0.0 bat-bing-com.ax-0001.ax-msedge.net
+0.0.0.0 mem.gfx.ms
+
+# Apple 
+0.0.0.0 xp.apple.com
+0.0.0.0 securemetrics.apple.com
+
+#Playstation
+0.0.0.0 telemetry.api.playstation.com
+0.0.0.0 smetrics.aem.playstation.com
+0.0.0.0 telemetry-web.api.playstation.com
+
+# Netflix
+0.0.0.0 logs.netflix.com
+
+# TikTok
+0.0.0.0 analytics.tiktok.com
+0.0.0.0 m.tiktok.com
+
+# samsung.com
+0.0.0.0 smetrics.samsung.com
+ 
+# Spotify
+0.0.0.0 api-partner.spotify.com
+
+# PayPal
+0.0.0.0 t.paypal.com
+
+# truste.com
+0.0.0.0 privacy-policy.truste.com
+
+# sentry.io
+0.0.0.0 o22381.ingest.sentry.io #anpassen
+0.0.0.0 o4507427284123728.ingest.de.sentry.io # anpassen
+0.0.0.0 o4504293643452416.ingest.sentry.io # anpassen
+0.0.0.0 o22381.ingest.sentry.io
+0.0.0.0 o1.ingest.us.sentry.io
+
+# yahoo.com
+0.0.0.0 opus.analytics.yahoo.com
+0.0.0.0 noa.yahoo.com
+0.0.0.0 bats.video.yahoo.com
+0.0.0.0 guce.yahoo.com
+
+# dailymotion.com
+0.0.0.0 dmads.dailymotion.com
+
+#Twitter/X
+0.0.0.0 static.ads-twitter.com 
+
+# reddit.com
+0.0.0.0 w3-reporting.reddit.com
+0.0.0.0 www.redditstatic.com
+0.0.0.0 redditstatic.com
+
+#facebook
+0.0.0.0 connect.facebook.net
+0.0.0.0 static.xx.fbcdn.net
+
+# Cloudfront
+0.0.0.0 a8dafb1c9da3adf57b48228408d63d640.profile.iad61-p4.cloudfront.net # anpassen
+0.0.0.0 dqqdvwgkvpkzi.cloudfront.net
+0.0.0.0 b2a7695d2e802c2dacc41398009615b68.profile.ord56-p7.cloudfront.net # anpassen
+
+# cloudflareinsights
+0.0.0.0 static.cloudflareinsights.com
+
+# adsrvr.org
+0.0.0.0 js.adsrvr.org
+0.0.0.0 match.adsrvr.org
+
+# btloader
+0.0.0.0 btloader.com
+
+# riskified.com
+0.0.0.0 beacon.riskified.com
+
+# ravelin.click
+0.0.0.0 live.ravelin.click
+
+# appsflyer.com
+0.0.0.0 onelinksmartscript.appsflyer.com
+
+# clicktale.net
+0.0.0.0 cdnssl.clicktale.net
+
+# dwin1.com
+0.0.0.0 www.dwin1.com
+
+# fireworkadservices1.com
+0.0.0.0 fireworkadservices1.com
+
+# fireworkanalytics.com
+0.0.0.0 fireworkanalytics.com
+
+# fwpixel.com
+0.0.0.0 p2.fwpixel.com
+
+# go-mpulse.net
+0.0.0.0 s.go-mpulse.net
+
+# licdn.com
+0.0.0.0 snap.licdn.com
+
+# pinimg.com
+0.0.0.0 s.pinimg.com
+
+# sc-static.net
+0.0.0.0 sc-static.net
+
+# useinsider.com
+0.0.0.0 samsungappsegprod.api.useinsider.com
+
+# sentry-cdn.com
+0.0.0.0 browser.sentry-cdn.com
+0.0.0.0 js-de.sentry-cdn.com
+
+# plausible.io
+0.0.0.0 plausible.io
+
+# clean.gg
+0.0.0.0 i.clean.gg
+
+# trueanthem.com
+0.0.0.0 b.trueanthem.com
+
+# chartbeat.com
+0.0.0.0 static.chartbeat.com
+
+# 3gl.net
+0.0.0.0 g.3gl.net
+
+# brandmetrics.com
+0.0.0.0 cdn.brandmetrics.com
+
+# dm-event.net
+0.0.0.0 pebed.dm-event.net
+0.0.0.0 webed.dm-event.net
+
+# hubvisor.io
+0.0.0.0 cdn.hubvisor.io
+
+# dailymail.co.uk
+0.0.0.0 crta.dailymail.co.uk
+
+# dmgmediaprivacy.co.uk
+0.0.0.0 cmp.dmgmediaprivacy.co.uk
+
+# dotmetrics.net
+0.0.0.0 uk-script.dotmetrics.net
+
+# sophi.io
+0.0.0.0 cdn.sophi.io
+
+# datadoghq.com
+0.0.0.0 www.datadoghq-browser-agent.com
+0.0.0.0 browser-intake-us5-datadoghq.com
+
+# hlx.page
+0.0.0.0 rum.hlx.page
+
+# yieldlove
+0.0.0.0 cdn-a.yieldlove.com
+
+# dmgmediaprivacy.co.uk
+0.0.0.0 cmp.dmgmediaprivacy.co.uk
+
+# buzzfeed.com
+0.0.0.0 pixiedust.buzzfeed.com
+
+# connatix.com
+0.0.0.0 assets.connatix.com
+0.0.0.0 capi.connatix.com
+0.0.0.0 cds.connatix.com
+0.0.0.0 pl.connatix.com
+
+# getjad
+0.0.0.0 cdn.lib.getjad.io
+
+# scorecardresearch.com
+0.0.0.0 sb.scorecardresearch.com
+
+# statically.io
+0.0.0.0 cdn.statically.io
+
+# thecontentserver.com
+0.0.0.0 tr.thecontentserver.com
+
+# cxense.com
+0.0.0.0 cdn.cxense.com
+
+# edigitalsurvey.com
+0.0.0.0 edigitalsurvey.com
+
+# condenastdigital.com
+0.0.0.0 martech.condenastdigital.com
+
+# criteo.net
+0.0.0.0 static.criteo.net
+
+# criteo.com
+0.0.0.0 grid-bidder.criteo.com
+0.0.0.0 gum.criteo.com
+
+# outbrain.com
+0.0.0.0 widgets.outbrain.com
+0.0.0.0 amplify.outbrain.com
+
+# avo.app
+0.0.0.0 api.avo.app
+
+# relevant-digital.com
+0.0.0.0 iqdigital-cdn.relevant-digital.com
+
+# id5-sync.com
+0.0.0.0 cdn.id5-sync.com
 0.0.0.0 api.id5-sync.com
+0.0.0.0 id5-sync.com
+
+# hirsung.de
+0.0.0.0 hirsung.de
+
+# geoedge.be
+0.0.0.0 rumcdn.geoedge.be
+
+# adnami.io
+0.0.0.0 functions.adnami.io
+0.0.0.0 macro.adnami.io
+
+# webcontentassessor.com
+0.0.0.0 scripts.mf.webcontentassessor.com
+0.0.0.0 scripts.webcontentassessor.com
+
+# duckduckgo
+0.0.0.0 improving.duckduckgo.com
+
+# qwant
+0.0.0.0 apm.qwant.com
+0.0.0.0 k.qwant.com
+
+# typekit
+0.0.0.0 p.typekit.net
+
+# usercentrics
+0.0.0.0 app.usercentrics.eu
+0.0.0.0 uct.service.usercentrics.eu
+0.0.0.0 privacy-proxy.usercentrics.eu
+0.0.0.0 web.cmp.usercentrics.eu
+
+# abtasty
+0.0.0.0 try.abtasty.com
+
+# scarabresearch
+0.0.0.0 cdn.scarabresearch.com
+
+# vgwort.de
+0.0.0.0 ssl-vg03.met.vgwort.de 
+0.0.0.0 vg05.met.vgwort.de
+0.0.0.0 burda-forward.met.vgwort.de
+0.0.0.0 ssl-welt.met.vgwort.de
+0.0.0.0 taz.met.vgwort.de
+0.0.0.0 zeit.met.vgwort.de
+0.0.0.0 chip.met.vgwort.de
+0.0.0.0 burda-forward.met.vgwort.de
+
+# spiegel.de
+0.0.0.0 iqmetrics.spiegel.de
+0.0.0.0 sams.spiegel.de
+
+# symplr.de
+0.0.0.0 cdns.symplr.de
+
+# emetriq.de
+0.0.0.0 dyn.emetriq.de
+
+# bf-ad.net
+0.0.0.0 a.bf-ad.net
+
+# dl8.me
+0.0.0.0 5baf1288cf.dl8.me
+
+# go-mpulse.net
+0.0.0.0 s.go-mpulse.net
+
+# asadcdn.com
+0.0.0.0 www.asadcdn.com
+
+# axelspringer.de
+0.0.0.0 rusty-heartbeat.services.ps.axelspringer.de
+
+# dpa.com
+0.0.0.0 log.dpa.com
+
+# n-tv.de
+0.0.0.0 metrics.n-tv.de
+
+# adalliance.io
+0.0.0.0 bls.adalliance.io
+0.0.0.0 mafo.adalliance.io
+0.0.0.0 zipservice.adalliance.io
+
+# adnxs.com
+0.0.0.0 acdn.adnxs.com
+0.0.0.0 ib.adnxs.com
+
+# cwi.re
+0.0.0.0 prebid.cwi.re
+
+# doubleverify.com
+0.0.0.0 pub.doubleverify.com
+
+# dspx.tv
+0.0.0.0 buyer.dspx.tv
+
+# emsservice.de
+0.0.0.0 static.emsservice.de
+
+# gumgum.com
+0.0.0.0 eu-west-1-rtb.gumgum.com
+0.0.0.0 rtb.gumgum.com
+0.0.0.0 g2.gumgum.com
+ 
+# opecloud.com
+0.0.0.0 cdn.opecloud.com
+0.0.0.0 adalliance.profiles.tagger.opecloud.com
+
+# otto.de
+0.0.0.0 orbidder.otto.de
+
+#permutive.app
+0.0.0.0 2e094599-243a-47a1-9c8c-d318a0dec54a.edge.permutive.app #anpassen
+0.0.0.0 api.permutive.app
+0.0.0.0 f23f026d-af06-45a2-8d42-9222f4656195.edge.permutive.app #anpassen
+
+# permutive.com
+0.0.0.0 api.permutive.com
+
+# technical-service.net
+0.0.0.0 te-static.technical-service.net
+0.0.0.0 te.technical-service.net
+
+# yieldlab.net
+0.0.0.0 ad.yieldlab.net
+
+# nmrodam.com
+0.0.0.0 cdn-gl.nmrodam.com
+
+# npaw.com
+0.0.0.0 lma.npaw.com
+
+# smartclip.net
+0.0.0.0 ad-ipd.sxp.smartclip.net
+
+# vtrtl.de
+0.0.0.0 px1.vtrtl.de
+
+# web.de
+0.0.0.0 absys.web.de
+0.0.0.0 tgw.web.de
+0.0.0.0 wa.web.de
+0.0.0.0 epimetheus.navigator.web.de
+
+# agma-analytics.de
+0.0.0.0 pbc.agma-analytics.de
+
+# mam.dev
+0.0.0.0 trace-proxy.mam.dev
+
+# openx.net
+0.0.0.0 rtb.openx.net
+0.0.0.0 
+
+# cleverpush.com
+0.0.0.0 static.cleverpush.com
+0.0.0.0 static-eu.cleverpush.com
+
+# 360yield.com
+0.0.0.0 ad.360yield.com
+
+# 3lift.com
+0.0.0.0 tlx.3lift.com
+0.0.0.0 eb2.3lift.com
+0.0.0.0 ib.3lift.com
+
+# adform.net
+0.0.0.0 adx.adform.net
+0.0.0.0 a1.adform.net
+
+# adition.com
+0.0.0.0 ad11.adfarm1.adition.com
+0.0.0.0 imagesrv.adition.com
+
+# brwsrfrm.com
+0.0.0.0 brwsrfrm.com
+
+# casalemedia.com
+0.0.0.0 htlb.casalemedia.com
+
+# pbstck.com
 0.0.0.0 boot.pbstck.com
+
+# pubmatic.com
+0.0.0.0 hbopenbid.pubmatic.com
+0.0.0.0 ads.pubmatic.com
+
+# rlcdn.com
 0.0.0.0 check.analytics.rlcdn.com
+
+# rubiconproject.com
+0.0.0.0 fastlane.rubiconproject.com
+0.0.0.0 prebid-server.rubiconproject.com
+0.0.0.0 eus.rubiconproject.com
+
+# smartadserver.com
+0.0.0.0 prg.smartadserver.com
+0.0.0.0 www14.smartadserver.com
+0.0.0.0 ssb-global.smartadserver.com
+0.0.0.0 apps.smartadserver.com
+
+# taboola.com
+0.0.0.0 api.taboola.com
 0.0.0.0 beacon.bidder.taboola.com
 0.0.0.0 display.bidder.taboola.com
-0.0.0.0 csp-report.ui-portal.de
-0.0.0.0 metrics.rewe.de
-0.0.0.0 ast.techbook.de
-0.0.0.0 data-bb21a2f11b.techbook.de
-0.0.0.0 ssl-vg03.met.vgwort.de
+0.0.0.0 cdn.taboola.com
+0.0.0.0 c2.taboola.com
 
-0.0.0.0 sq-tungsten-ts-eu.amazon-adsystem.com
-0.0.0.0 fls-eu.amazon.de
-0.0.0.0 assets.twitch.tv
-0.0.0.0 sentry.io
-0.0.0.0 unagi-na.amazon.de
-0.0.0.0 d3aqoihi2n8ty8.cloudfront.net
-0.0.0.0 images-na.ssl-images-amazon.com
-0.0.0.0 m.media-amazon.com
-0.0.0.0 a.media-amazon.com
-0.0.0.0 dk9ps7goqoeef.cloudfront.net
-0.0.0.0 f.media-amazon.com
-0.0.0.0 mpognobbkildjkofajifpdfhcoklimli
-0.0.0.0 quadro.burda-forward.de
-#0.0.0.0 
+# uimserv.net
+0.0.0.0 t.uimserv.net
+
+# aticdn.net
+0.0.0.0 tag.aticdn.net
+
+# pa-cd.com
+0.0.0.0 vqggwrz.pa-cd.com
+
+# zdf.de
+0.0.0.0 tracksrv.zdf.de
+
+# appboycdn.com
+0.0.0.0 js.appboycdn.com
+
+# nr-data.net
+0.0.0.0 bam.nr-data.net
+
+# redfast.com
+0.0.0.0 conduit.redfast.com
+
+# menshealth.de
+0.0.0.0 data-5e5ac4ec65.menshealth.de
+0.0.0.0 data-cb2c174131.menshealth.de
+
+# menshealth.de
+0.0.0.0 matomo.menshealth.de
+
+# motorpresse.de
+0.0.0.0 gadata.motorpresse.de
+0.0.0.0 plausible.motorpresse.de
+
+# mrf.io
+0.0.0.0 sdk.mrf.io 
+
+# conde.digital
+0.0.0.0 ads-static.conde.digital
+0.0.0.0 globalservices.conde.digital
+
+# trustedshops.com
+0.0.0.0 widgets.trustedshops.com
+
+# exponea.com
+0.0.0.0 api.eu1.exponea.com
+
+# qualtrics.com
+0.0.0.0 zn0lxkzethotizctx-bahn.siteintercept.qualtrics.com
+0.0.0.0 znbcovnabjyixpahd-paypaldigital.siteintercept.qualtrics.com
+
+# tealiumiq.com
+0.0.0.0 collect.tealiumiq.com
+
+# brightcove.com
+0.0.0.0 metrics.brightcove.com
+
+# ml314.com
+0.0.0.0 vi.ml314.com
+
+# zeustechnology.com
+0.0.0.0 metrics.zeustechnology.com
+0.0.0.0 sponsorship-lines.zeustechnology.com
+0.0.0.0 wapo.zeustechnology.com
+
+# nypost.com
+0.0.0.0 ads.nypost.com
+
+# ebxcdn.com
+0.0.0.0 applets.ebxcdn.com
+
+# wp.com
+0.0.0.0 stats.wp.com
+
+# githack.com
+0.0.0.0 bbcdn.githack.com
+0.0.0.0 rawcdn.githack.com
+
+# adlightning.com
+0.0.0.0 tagan.adlightning.com
+
+# jsdelivr.net
+0.0.0.0 cdn.jsdelivr.net
+
+# html-load.cc
+0.0.0.0 html-load.cc
+
+# optimizely.com
+0.0.0.0 cdn.optimizely.com
+
+# permutive.com
+0.0.0.0 cdn.permutive.com
+
+# the-ozone-project.com
+0.0.0.0 prebid.the-ozone-project.com
+
+# newrelic.com
+0.0.0.0 js-agent.newrelic.com
+
+# parsely.com
+0.0.0.0 cdn.parsely.com
+
+# adscale.de
+0.0.0.0 fsc.adscale.de
+0.0.0.0 ih.adscale.de
+0.0.0.0 js.adscale.de
+
+# aswpsdkeu.com
+0.0.0.0 aswpsdkeu.com
+
+# nativendo.de
+0.0.0.0 d.nativendo.de
+
+# speedcurve.com
+0.0.0.0 cdn.speedcurve.com
+
+# theadex.com
+0.0.0.0 dmp.theadex.com
+
+# userreport.com
+0.0.0.0 sak.userreport.com
+0.0.0.0 pdw-usr.userreport.com
+
+# taz.de
+0.0.0.0 data-502d5cce76.taz.de
+
+# dwcdn.net
+0.0.0.0 pt.dwcdn.net
+
+# sensic.net
+0.0.0.0 es-config.sensic.net
+
+# 
+0.0.0.0 data-c14a6b9c37.motorradonline.de # anpassen
+0.0.0.0 data-cf56e4da9b.motorradonline.de # anpassen
+0.0.0.0 matomo.motorradonline.de
+
+# upscore.com
+0.0.0.0 hit-error.upscore.com
+0.0.0.0 hit-pool.upscore.com
+0.0.0.0 hl.upscore.com
+0.0.0.0 files.upscore.com
+
+# varify.io
+0.0.0.0 app.varify.io
+
+# hotjar.com
+0.0.0.0 static.hotjar.com
+
+# bf-tools.net
+0.0.0.0 a.bf-tools.net
+
+# freundin.de
+0.0.0.0 data-e7308988a6.freundin.de
+
+# golem.de
+0.0.0.0 remp-beam.golem.de
+0.0.0.0 robert.golem.de
+0.0.0.0 cpx.golem.de
+
+# 4dex.io
+0.0.0.0 mp.4dex.io
+0.0.0.0 script.4dex.io
+
+# adscale.de
+0.0.0.0 hb.adscale.de
+
+# connectad.io
+0.0.0.0 i.connectad.io
+0.0.0.0 sync.connectad.io
+
+# indexww.com
+0.0.0.0 js-sec.indexww.com
+
+# kameleoon.eu
+0.0.0.0 yxsu5ufd2m.kameleoon.eu
+
+# nexx360-static.io
+0.0.0.0 cdn.nexx360-static.io
+
+# nexx360.io
+0.0.0.0 fast.nexx360.io
+
+# seedtag.com
+0.0.0.0 s.seedtag.com
+
+# teads.tv
+0.0.0.0 a.teads.tv
+
+# visx.net
+0.0.0.0 t.visx.net
+
+# green-ads.net
+0.0.0.0 v3.green-ads.net
+
+# bugsnag.com
+0.0.0.0 sessions.bugsnag.com
+
+# survicate.com
+0.0.0.0 survey.survicate.com
+
+# pushwoosh.com
+0.0.0.0 cdn.pushwoosh.com
+
+# united-infos.net
+0.0.0.0 united-infos.net
+
+# gmx.net
+0.0.0.0 tgw.gmx.net
+0.0.0.0 epimetheus.navigator.gmx.net
+0.0.0.0 wa.gmx.net
+
+# tifbs.net
+0.0.0.0 uim.tifbs.net
+
+# wlct-three.de
+0.0.0.0 www.wlct-three.de
+
+# leoninestudios.com
+0.0.0.0 tracking.leoninestudios.com
+
+# mmstat.com
+0.0.0.0 gm.mmstat.com
+
+# creativecdn.com
+0.0.0.0 tags.creativecdn.com
+
+# aliexpress.com
+0.0.0.0 s.click.aliexpress.com
+
+# temu.com
+0.0.0.0 eu.pftk.temu.com
+0.0.0.0 eu.thtk.temu.com
+
+# kwcdn.com
+0.0.0.0 static.kwcdn.com
+
+# getjan.io
+0.0.0.0 cdn.lib.getjan.io
+
+# moviepilot.de
+0.0.0.0 analytics.moviepilot.de
+
+# virtualearth.net
+0.0.0.0 dev.virtualearth.net
+
+# tagcommander.com
+0.0.0.0 cdn.tagcommander.com
+
+# epicgames.com
+0.0.0.0 datarouter.ol.epicgames.com
+
+# cookielaw.org
+0.0.0.0 cdn.cookielaw.org
+
+# giga.de
+0.0.0.0 utiq.giga.de
+
+# liadm.com
+0.0.0.0 b-code.liadm.com
+
+# funkedigital.de
+0.0.0.0 anonym.data.funkedigital.de
+0.0.0.0 sp.data.funkedigital.de
+
+# smartico.one
+0.0.0.0 d.smartico.one
+
+# cuboxx.io
+0.0.0.0 grafana-agent.cuboxx.io
+
+# econda-monitor.de
+0.0.0.0 www.econda-monitor.de
+0.0.0.0 econda-monitor.de
