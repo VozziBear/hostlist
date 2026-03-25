@@ -759,3 +759,6 @@
 # aliyuncs.com
 0.0.0.0 pango-virginia-prod-dji-official.us-east-1.log.aliyuncs.com
 0.0.0.0 retcode-us-west-1.arms.aliyuncs.com
+
+# github.com
+0.0.0.0 collector.github.com
