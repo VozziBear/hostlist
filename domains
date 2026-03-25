@@ -752,3 +752,10 @@
 # econda-monitor.de
 0.0.0.0 www.econda-monitor.de
 0.0.0.0 econda-monitor.de
+
+# djiops.com
+0.0.0.0 sentry-io.djiops.com
+
+# aliyuncs.com
+0.0.0.0 pango-virginia-prod-dji-official.us-east-1.log.aliyuncs.com
+0.0.0.0 retcode-us-west-1.arms.aliyuncs.com
