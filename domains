@@ -105,9 +105,9 @@
 0.0.0.0 static.ads-twitter.com 
 
 # reddit.com
-0.0.0.0 w3-reporting.reddit.com
-0.0.0.0 www.redditstatic.com
-0.0.0.0 redditstatic.com
+#0.0.0.0 w3-reporting.reddit.com
+#0.0.0.0 www.redditstatic.com
+#0.0.0.0 redditstatic.com
 
 #facebook
 0.0.0.0 connect.facebook.net
