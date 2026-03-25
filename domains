@@ -20,6 +20,7 @@
 0.0.0.0 cm.g.doubleclick.net
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 region1.google-analytics.com
+0.0.0.0 www3.doubleclick.net
 0.0.0.0 rr3---sn-hgn7rnls.googlevideo.com # anpassen!!!!!
 
 # Amazon
@@ -75,7 +76,7 @@
 
 # samsung.com
 0.0.0.0 smetrics.samsung.com
- 
+
 # Spotify
 #0.0.0.0 api-partner.spotify.com
 
@@ -91,6 +92,9 @@
 0.0.0.0 o4504293643452416.ingest.sentry.io # anpassen
 0.0.0.0 o22381.ingest.sentry.io
 0.0.0.0 o1.ingest.us.sentry.io
+
+# sentry.com
+0.0.0.0 sentry.perspective-daily.com
 
 # yahoo.com
 0.0.0.0 opus.analytics.yahoo.com
@@ -117,6 +121,7 @@
 0.0.0.0 a8dafb1c9da3adf57b48228408d63d640.profile.iad61-p4.cloudfront.net # anpassen
 0.0.0.0 dqqdvwgkvpkzi.cloudfront.net
 0.0.0.0 b2a7695d2e802c2dacc41398009615b68.profile.ord56-p7.cloudfront.net # anpassen
+0.0.0.0 d2wu036mkcz52n.cloudfront.net
 
 # cloudflareinsights
 0.0.0.0 static.cloudflareinsights.com
@@ -244,6 +249,7 @@
 
 # cxense.com
 0.0.0.0 cdn.cxense.com
+0.0.0.0 api.cxense.com
 
 # edigitalsurvey.com
 0.0.0.0 edigitalsurvey.com
@@ -311,13 +317,20 @@
 
 # vgwort.de
 0.0.0.0 ssl-vg03.met.vgwort.de 
-0.0.0.0 vg05.met.vgwort.de
 0.0.0.0 burda-forward.met.vgwort.de
-0.0.0.0 ssl-welt.met.vgwort.de
 0.0.0.0 taz.met.vgwort.de
 0.0.0.0 zeit.met.vgwort.de
 0.0.0.0 chip.met.vgwort.de
-0.0.0.0 burda-forward.met.vgwort.de
+0.0.0.0 fr-online.met.vgwort.de
+0.0.0.0 vg01.met.vgwort.de
+0.0.0.0 vg02.met.vgwort.de
+0.0.0.0 vg03.met.vgwort.de
+0.0.0.0 vg04.met.vgwort.de
+0.0.0.0 vg05.met.vgwort.de
+0.0.0.0 vg06.met.vgwort.de
+0.0.0.0 vg09.met.vgwort.de
+0.0.0.0 ssl-handelsblatt.met.vgwort.de
+0.0.0.0 ssl-welt.met.vgwort.de
 
 # spiegel.de
 0.0.0.0 iqmetrics.spiegel.de
@@ -387,6 +400,7 @@
 0.0.0.0 2e094599-243a-47a1-9c8c-d318a0dec54a.edge.permutive.app #anpassen
 0.0.0.0 api.permutive.app
 0.0.0.0 f23f026d-af06-45a2-8d42-9222f4656195.edge.permutive.app #anpassen
+0.0.0.0 5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app #anpassen
 
 # permutive.com
 0.0.0.0 api.permutive.com
@@ -424,7 +438,6 @@
 
 # openx.net
 0.0.0.0 rtb.openx.net
-0.0.0.0 
 
 # cleverpush.com
 0.0.0.0 static.cleverpush.com
@@ -488,6 +501,7 @@
 
 # pa-cd.com
 0.0.0.0 vqggwrz.pa-cd.com
+0.0.0.0 lwqvhgk.pa-cd.com
 
 # zdf.de
 0.0.0.0 tracksrv.zdf.de
@@ -505,8 +519,11 @@
 0.0.0.0 data-5e5ac4ec65.menshealth.de
 0.0.0.0 data-cb2c174131.menshealth.de
 
-# menshealth.de
+# matomo
 0.0.0.0 matomo.menshealth.de
+0.0.0.0 matomo.motorradonline.de
+0.0.0.0 matomo.ecomento.de
+0.0.0.0 matomo.correctiv.org
 
 # motorpresse.de
 0.0.0.0 gadata.motorpresse.de
@@ -613,7 +630,7 @@
 # 
 0.0.0.0 data-c14a6b9c37.motorradonline.de # anpassen
 0.0.0.0 data-cf56e4da9b.motorradonline.de # anpassen
-0.0.0.0 matomo.motorradonline.de
+
 
 # upscore.com
 0.0.0.0 hit-error.upscore.com
@@ -654,6 +671,7 @@
 
 # kameleoon.eu
 0.0.0.0 yxsu5ufd2m.kameleoon.eu
+0.0.0.0 wni4spsbqo.kameleoon.eu
 
 # nexx360-static.io
 0.0.0.0 cdn.nexx360-static.io
@@ -760,6 +778,9 @@
 0.0.0.0 pango-virginia-prod-dji-official.us-east-1.log.aliyuncs.com
 0.0.0.0 retcode-us-west-1.arms.aliyuncs.com
 
+# dji.com
+0.0.0.0 store-api.dji.com
+
 # github.com
 0.0.0.0 collector.github.com
 
@@ -783,10 +804,135 @@
 
 # mediavoice.com
 0.0.0.0 cdn.mediavoice.com
-0.0.0.0 
 
 # spellknight.com
 0.0.0.0 spellknight.com
 
 # trackonomics.net
 0.0.0.0 cdn-magiclinks.trackonomics.net
+
+# cesifo-group.de
+0.0.0.0 webanalytics.cesifo-group.de
+
+# invmed.co
+0.0.0.0 monetization.prod.invmed.co
+
+# pbxai.com
+0.0.0.0 cdn.pbxai.com
+0.0.0.0 floor.pbxai.com
+
+# esa.int
+0.0.0.0 www-analytics.esa.int
+0.0.0.0 
+
+# bild.de
+0.0.0.0 jnt.bild.de
+
+# netpoint-media.de
+0.0.0.0 cdn.netpoint-media.de
+
+# push.delivery
+0.0.0.0 cdn-swisscom.push.delivery
+
+# ringier-advertising.ch
+0.0.0.0 cdn.ringier-advertising.ch
+
+# scsstatic.ch
+0.0.0.0 rcp.scsstatic.ch
+
+# lngtd.com
+0.0.0.0 lngtd.com
+
+# p-n.io
+0.0.0.0 cdn.p-n.io
+
+# primis.tech
+0.0.0.0 live.primis.tech
+0.0.0.0 
+
+# quantserve.com
+0.0.0.0 secure.quantserve.com
+
+# skimresources.com
+0.0.0.0 s.skimresources.com
+
+# datahub-srgssr.ch
+0.0.0.0 api.datahub-srgssr.ch
+
+# pa-cd.com
+0.0.0.0 lwqvhgk.pa-cd.com
+0.0.0.0 pgxdqxq.pa-cd.com
+
+# fr.de
+0.0.0.0 data-f1e447fbcf.fr.de
+
+# cdntrf.com
+0.0.0.0 cdntrf.com
+
+# traffective.cloud
+0.0.0.0 stats.traffective.cloud
+
+# warenform.de
+0.0.0.0 stats.warenform.de
+
+# sumikai.com
+0.0.0.0 stats.sumikai.com
+
+# orf.at
+0.0.0.0 app-analytics.orf.at
+0.0.0.0 data-d6e13c60e8.orf.at
+
+# pushwoosh.com
+0.0.0.0 cp.pushwoosh.com
+
+# ingenieur.de
+0.0.0.0 data-3277c56f96.ingenieur.de
+0.0.0.0 data-5a9f6e282a.ingenieur.de
+
+# xplosion.de
+0.0.0.0 ups.xplosion.de
+
+# rndtech.de
+0.0.0.0 click-performance.assets.rndtech.de
+
+# rnd.de
+0.0.0.0 utiq.rnd.de
+0.0.0.0 mst.rnd.de
+
+# rp-online.de
+0.0.0.0 d.rp-online.de
+0.0.0.0 data-043610b415.rp-online.de
+0.0.0.0 data-497ecca600.rp-online.de
+
+# npttech.com
+0.0.0.0 www.npttech.com
+
+# tagrpd.de
+0.0.0.0 tagrpd.de
+
+# exitbee.com
+0.0.0.0 cdn.exitbee.com
+
+# ba-content.de
+0.0.0.0 d.ba-content.de
+
+# da-services.ch
+0.0.0.0 tdn.da-services.ch
+
+# wix.com
+0.0.0.0 frog.wix.com
+
+# wixapps.net
+0.0.0.0 panorama.wixapps.net 
+
+#l-iz.de
+0.0.0.0 adserver.l-iz.de
+
+# notifpush.com
+0.0.0.0 notifpush.com
+
+# runforrest
+0.0.0.0 runforrest.editionf.com
+
+# ebu.io
+0.0.0.0 pipe-collect.ebu.io
