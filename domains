@@ -762,3 +762,31 @@
 
 # github.com
 0.0.0.0 collector.github.com
+
+# wlct-one.de
+0.0.0.0 static.wlct-one.de
+
+# anonymised.io
+0.0.0.0 static.anonymised.io
+
+# cpx.to
+0.0.0.0 p.cpx.to
+
+# demdex.net
+0.0.0.0 dpm.demdex.net
+
+# experianmatch.info
+0.0.0.0 experianmatch.info
+
+# k-words.io
+0.0.0.0 sdk.k-words.io
+
+# mediavoice.com
+0.0.0.0 cdn.mediavoice.com
+0.0.0.0 
+
+# spellknight.com
+0.0.0.0 spellknight.com
+
+# trackonomics.net
+0.0.0.0 cdn-magiclinks.trackonomics.net
