@@ -21,6 +21,9 @@
 0.0.0.0 stats.g.doubleclick.net
 0.0.0.0 region1.google-analytics.com
 0.0.0.0 www3.doubleclick.net
+0.0.0.0 ad.doubleclick.net
+0.0.0.0 4952451.fls.doubleclick.net
+0.0.0.0 region1.analytics.google.com
 0.0.0.0 rr3---sn-hgn7rnls.googlevideo.com # anpassen!!!!!
 
 # Amazon
@@ -37,6 +40,7 @@
 0.0.0.0 client.aps.amazon-adsystem.com
 0.0.0.0 config.aps.amazon-adsystem.com
 0.0.0.0 s.amazon-adsystem.com
+0.0.0.0 dataplane.rum.eu-west-1.amazonaws.com
 
 # Microsoft
 0.0.0.0 northcentralus-0.in.applicationinsights.azure.com
@@ -57,6 +61,10 @@
 0.0.0.0 bat.bing.com
 0.0.0.0 bat-bing-com.ax-0001.ax-msedge.net
 0.0.0.0 mem.gfx.ms
+0.0.0.0 westus3-1.in.applicationinsights.azure.com
+
+# amplitude.com
+0.0.0.0 sr-client-cfg.amplitude.com
 
 # Apple 
 0.0.0.0 xp.apple.com
@@ -82,19 +90,24 @@
 
 # PayPal
 0.0.0.0 t.paypal.com
+0.0.0.0 c6.paypal.com
+0.0.0.0 b.stats.paypal.com
 
 # truste.com
 0.0.0.0 privacy-policy.truste.com
 
 # sentry.io
-0.0.0.0 o22381.ingest.sentry.io #anpassen
+0.0.0.0 o22381.ingest.sentry.io
+0.0.0.0 o22381.ingest.us.sentry.io #anpassen
 0.0.0.0 o4507427284123728.ingest.de.sentry.io # anpassen
 0.0.0.0 o4504293643452416.ingest.sentry.io # anpassen
 0.0.0.0 o22381.ingest.sentry.io
 0.0.0.0 o1.ingest.us.sentry.io
+0.0.0.0 o1040326.ingest.sentry.io
 
 # sentry.com
 0.0.0.0 sentry.perspective-daily.com
+0.0.0.0 sentry.sc-prod.net
 
 # yahoo.com
 0.0.0.0 opus.analytics.yahoo.com
@@ -122,6 +135,9 @@
 0.0.0.0 dqqdvwgkvpkzi.cloudfront.net
 0.0.0.0 b2a7695d2e802c2dacc41398009615b68.profile.ord56-p7.cloudfront.net # anpassen
 0.0.0.0 d2wu036mkcz52n.cloudfront.net
+0.0.0.0 d2o5idwacg3gyw.cloudfront.net
+0.0.0.0 db7q4jg5rkhk8.cloudfront.net
+0.0.0.0 d3lqotgbn3npr.cloudfront.net
 
 # cloudflareinsights
 0.0.0.0 static.cloudflareinsights.com
@@ -545,6 +561,7 @@
 # qualtrics.com
 0.0.0.0 zn0lxkzethotizctx-bahn.siteintercept.qualtrics.com
 0.0.0.0 znbcovnabjyixpahd-paypaldigital.siteintercept.qualtrics.com
+0.0.0.0 zn4n7plimqx2bmy6o-f5.siteintercept.qualtrics.com
 
 # tealiumiq.com
 0.0.0.0 collect.tealiumiq.com
@@ -661,6 +678,9 @@
 
 # adscale.de
 0.0.0.0 hb.adscale.de
+0.0.0.0 ih.adscale.de
+0.0.0.0 js.adscale.de
+0.0.0.0 fsc.adscale.de
 
 # connectad.io
 0.0.0.0 i.connectad.io
@@ -672,6 +692,7 @@
 # kameleoon.eu
 0.0.0.0 yxsu5ufd2m.kameleoon.eu
 0.0.0.0 wni4spsbqo.kameleoon.eu
+0.0.0.0 sdk-config.kameleoon.eu
 
 # nexx360-static.io
 0.0.0.0 cdn.nexx360-static.io
@@ -936,3 +957,238 @@
 
 # ebu.io
 0.0.0.0 pipe-collect.ebu.io
+
+# etahub.com
+0.0.0.0 etahub.com
+
+# trafficjunky.com
+0.0.0.0 static.trafficjunky.com
+
+# trafficjunky.net
+0.0.0.0 media.trafficjunky.net
+
+# saawsedge.com
+0.0.0.0 edge-hls.saawsedge.com
+
+# tsyndicate.com
+0.0.0.0 lcdn.tsyndicate.com
+0.0.0.0 cdn.tsyndicate.com
+
+# yandex.ru
+0.0.0.0 mc.yandex.ru
+
+# realsrv.com
+0.0.0.0 syndication.realsrv.com
+0.0.0.0 a.realsrv.com
+
+# magsrv.com
+0.0.0.0 a.magsrv.com
+0.0.0.0 s.magsrv.com
+
+# gifsauce.com
+0.0.0.0 creative.cams.gifsauce.com
+
+# mavrtracktor.com
+0.0.0.0 go.mavrtracktor.com
+
+# pemsrv.com
+0.0.0.0 s.pemsrv.com
+0.0.0.0 a.pemsrv.com
+
+# reebr.com
+0.0.0.0 creative.reebr.com
+
+# adsxtits.com
+0.0.0.0 adsxtits.com
+
+# adtng.com
+0.0.0.0 a.adtng.com
+
+# jibeno.xyz
+0.0.0.0 t.jibeno.xyz
+
+# ahacdn.me
+0.0.0.0 cdn26135956.ahacdn.me # anpassen
+
+# twinrdengine.com
+0.0.0.0 ad.twinrdengine.com
+
+# hepelu.my
+0.0.0.0 t.hepelu.my
+
+# regex101.com
+0.0.0.0 analytics.regex101.com
+
+# buysellads.com
+0.0.0.0 srv.buysellads.com
+
+# forter.com
+0.0.0.0 77ee068b6863.cdn4.forter.com # anpassen
+0.0.0.0 cdn0.forter.com
+0.0.0.0 cdn3.forter.com
+0.0.0.0 821dbf709728.cdn4.forter.com
+
+# peerius.com
+0.0.0.0 netto.peerius.com
+
+# userzoom.com
+0.0.0.0 cdn4.userzoom.com
+
+# addthis.com
+0.0.0.0 s7.addthis.com
+# coveo.com
+0.0.0.0 static.cloud.coveo.com
+
+# protechts.net
+0.0.0.0 li.protechts.net
+
+# shopifysvc.com
+0.0.0.0 error-analytics-sessions-production.shopifysvc.com
+0.0.0.0 monorail-edge.shopifysvc.com
+0.0.0.0 otlp-http-production.shopifysvc.com
+
+# baidu.com
+0.0.0.0 hm.baidu.com
+
+# banhq.com
+0.0.0.0 cdn.banhq.com
+
+# cdn-fc.com
+0.0.0.0 cdn-fc.com
+
+# crxcr2.com
+0.0.0.0 www.crxcr2.com
+
+# quixova.com
+0.0.0.0 live.quixova.com
+
+# trudigo.com
+0.0.0.0 live.trudigo.com
+
+# tubecj.com
+0.0.0.0 tracker.tubecj.com
+
+# yequka.my
+0.0.0.0 t.yequka.my
+
+# primecirclenet.com
+0.0.0.0 euob.primecirclenet.com
+
+# yfdpco4.com
+0.0.0.0 yfdpco4.com
+
+# plexstorm.com
+0.0.0.0 creative.plexstorm.com
+
+# router.parklogic.com
+0.0.0.0 router.parklogic.com
+
+# adplsr.com
+0.0.0.0 static.adplsr.com
+
+# camsoda.com
+0.0.0.0 xmetrics.camsoda.com
+
+# secure-track1.com
+0.0.0.0 secure-track1.com
+
+# dsgqie.com
+0.0.0.0 s.dsgqie.com
+
+# dreamserve.dev
+0.0.0.0 core.dreamserve.dev
+
+# toplist.cz
+0.0.0.0 toplist.cz
+
+# confiant-integrations.net
+0.0.0.0 cdn.confiant-integrations.net
+
+# aaxads.com
+0.0.0.0 c.aaxads.com
+
+# branch.io
+0.0.0.0 cdn.branch.io
+
+# browser-intake-datadoghq.eu
+0.0.0.0 browser-intake-datadoghq.eu
+
+# icg-in.com
+0.0.0.0 service4.icg-in.com
+
+# icg-in.info
+0.0.0.0 conn-check.icg-in.info
+0.0.0.0 service2.icg-in.info
+0.0.0.0 service4.icg-in.info
+
+# justeattakeaway.com
+0.0.0.0 analytics.api.justeattakeaway.com
+
+#unpkg.com 
+0.0.0.0 unpkg.com
+
+# usabilla.com
+0.0.0.0 w.usabilla.com
+
+# ebay.com
+0.0.0.0 sherlock-events-sampler.ebay.com
+0.0.0.0 rover.ebay.com
+0.0.0.0 monitor.ebay.com
+0.0.0.0 edgetrksvc.ebay.de
+
+# perfdrive.com
+0.0.0.0 cas.avalon.perfdrive.com
+
+# stroeermediabrands.de
+0.0.0.0 quiz.stroeermediabrands.de
+
+# launchdarkly.com
+0.0.0.0 events.launchdarkly.com
+
+# rbictg.com
+0.0.0.0 intl-csp-service.rbictg.com
+
+# mixpanel.com
+0.0.0.0 api-eu.mixpanel.com
+
+# tolt.io
+0.0.0.0 cdn.tolt.io
+
+# yorkvillemarketing.net
+0.0.0.0 z0000g.yorkvillemarketing.net
+
+# labadena.com
+0.0.0.0 a.labadena.com
+
+# tapioni.com
+0.0.0.0 cdn.tapioni.com
+
+#yomeno.xyz
+0.0.0.0 maucn.yomeno.xyz
+
+# vstserv.com
+0.0.0.0 vast.vstserv.com
+
+# metricswpsh.com
+0.0.0.0 metricswpsh.com
+
+# flepquix.com
+0.0.0.0 flepquix.com
+
+# exoclick.com
+0.0.0.0 ads.exoclick.com
+
+# adspector.io
+0.0.0.0 a.adspector.io
+
+# adsco.re
+0.0.0.0 c.adsco.re
+
+# adspirit.de
+0.0.0.0 cdn.adspirit.de
+
+# re-in.de
+0.0.0.0 ravde.re-in.de
+
+# roeyecdn.com
+0.0.0.0 lantern.roeyecdn.com
