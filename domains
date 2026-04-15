@@ -131,13 +131,13 @@
 0.0.0.0 static.xx.fbcdn.net
 
 # Cloudfront
-0.0.0.0 a8dafb1c9da3adf57b48228408d63d640.profile.iad61-p4.cloudfront.net # anpassen
-0.0.0.0 dqqdvwgkvpkzi.cloudfront.net
-0.0.0.0 b2a7695d2e802c2dacc41398009615b68.profile.ord56-p7.cloudfront.net # anpassen
-0.0.0.0 d2wu036mkcz52n.cloudfront.net
-0.0.0.0 d2o5idwacg3gyw.cloudfront.net
-0.0.0.0 db7q4jg5rkhk8.cloudfront.net
-0.0.0.0 d3lqotgbn3npr.cloudfront.net
+# 0.0.0.0 a8dafb1c9da3adf57b48228408d63d640.profile.iad61-p4.cloudfront.net # anpassen
+# 0.0.0.0 dqqdvwgkvpkzi.cloudfront.net
+# 0.0.0.0 b2a7695d2e802c2dacc41398009615b68.profile.ord56-p7.cloudfront.net # anpassen
+# 0.0.0.0 d2wu036mkcz52n.cloudfront.net
+# 0.0.0.0 d2o5idwacg3gyw.cloudfront.net
+# 0.0.0.0 db7q4jg5rkhk8.cloudfront.net
+# 0.0.0.0 d3lqotgbn3npr.cloudfront.net
 
 # cloudflareinsights
 0.0.0.0 static.cloudflareinsights.com
