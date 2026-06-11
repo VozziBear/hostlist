@@ -1,6 +1,3 @@
-https://servedby.flashtalking.com/click/8/315989;10775628;6137214;211;0/?random=1430221261&ft_width=0&ft_height=0&ft_impID=45F4ADE7-7A9B-7CCA-0ED9-5171DF80108D&ivc_bundle_id=&ft_pid=&ft_custom=&ft_c1=&ft_c2=&ft_c3=&ft_id=%%DEVICE_ID%%&ft_keyword=&ft_mcid=&ft_mliid=&ft_partnerimpid=&ft_partnerid=&ft_section=&ivc_site=&gdpr=1&gdpr_consent=CQkho9xQkho9xAcABBENA-FgAAAAAAAAACiQAAAAAAAA&gdpr_pd=FT_GDPR_PD&us_privacy=FT_US_PRIVACY&url=https://www.mcdonalds.com/de/de-de/kampagnen/beverages2026.html
-https://clladss.com/get/?spot_id=1421140&cat=25&subid=139499428&x=0.51640625&y=0.3584456780333069&session_time=53&pop_fires=1&uclicks=1&g_f=4&prev_step_diff=33208
-
 # google.com
 0.0.0.0 csp.withgoogle.com
 0.0.0.0 play.google.com
@@ -35,7 +32,7 @@ https://clladss.com/get/?spot_id=1421140&cat=25&subid=139499428&x=0.51640625&y=0
 0.0.0.0 aax-eu.amazon-adsystem.com
 0.0.0.0 aes.eu-west.ono.axp.amazon-adsystem.com
 0.0.0.0 unagi-eu.amazon.com
-0.0.0.0 k8s-riverpro-captures-9f8dbb0ba5-1345960063.us-east-1.elb.amazonaws.com # anpassen!!!!
+0.0.0.0 k8s-riverpro-captures-9f8dbb0ba5-1345960063.us-east-1.elb.amazonaws.com 
 0.0.0.0 c.amazon-adsystem.com
 0.0.0.0 unagi-na.amazon.com
 0.0.0.0 ipv6.unagi-na.amazon.com
@@ -150,10 +147,6 @@ https://clladss.com/get/?spot_id=1421140&cat=25&subid=139499428&x=0.51640625&y=0
 0.0.0.0 db7q4jg5rkhk8.cloudfront.net
 0.0.0.0 d3lqotgbn3npr.cloudfront.net
 0.0.0.0 a0950f341b1c31a02107c4b480fb39e45.profile.del51-p5.cloudfront.net
-
-# Cloudfront REGEX
-^([0-9a-z]{33})\.profile\.([a-z0-9]{5}[-][a-z0-9]{2})\.cloudfront\.(net)$
-^([0-9a-z]+)\.cloudfront\.([a-z]{2,7})$
 
 # cloudflareinsights
 0.0.0.0 static.cloudflareinsights.com
