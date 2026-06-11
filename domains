@@ -1,3 +1,6 @@
+https://servedby.flashtalking.com/click/8/315989;10775628;6137214;211;0/?random=1430221261&ft_width=0&ft_height=0&ft_impID=45F4ADE7-7A9B-7CCA-0ED9-5171DF80108D&ivc_bundle_id=&ft_pid=&ft_custom=&ft_c1=&ft_c2=&ft_c3=&ft_id=%%DEVICE_ID%%&ft_keyword=&ft_mcid=&ft_mliid=&ft_partnerimpid=&ft_partnerid=&ft_section=&ivc_site=&gdpr=1&gdpr_consent=CQkho9xQkho9xAcABBENA-FgAAAAAAAAACiQAAAAAAAA&gdpr_pd=FT_GDPR_PD&us_privacy=FT_US_PRIVACY&url=https://www.mcdonalds.com/de/de-de/kampagnen/beverages2026.html
+https://clladss.com/get/?spot_id=1421140&cat=25&subid=139499428&x=0.51640625&y=0.3584456780333069&session_time=53&pop_fires=1&uclicks=1&g_f=4&prev_step_diff=33208
+
 # google.com
 0.0.0.0 csp.withgoogle.com
 0.0.0.0 play.google.com
@@ -24,6 +27,7 @@
 0.0.0.0 ad.doubleclick.net
 0.0.0.0 4952451.fls.doubleclick.net
 0.0.0.0 region1.analytics.google.com
+0.0.0.0 fundingchoicesmessages.google.com
 0.0.0.0 rr3---sn-hgn7rnls.googlevideo.com # anpassen!!!!!
 
 # Amazon
@@ -82,8 +86,14 @@
 0.0.0.0 analytics.tiktok.com
 0.0.0.0 m.tiktok.com
 
+# instagram
+0.0.0.0 graph.instagram.com
+
 # samsung.com
 0.0.0.0 smetrics.samsung.com
+
+# snapchat.com
+0.0.0.0 gcp.api.snapchat.com
 
 # Spotify
 #0.0.0.0 api-partner.spotify.com
@@ -96,7 +106,7 @@
 # truste.com
 0.0.0.0 privacy-policy.truste.com
 
-# sentry.io
+# sentry.io -> REGEX Regeln bestehen
 0.0.0.0 o22381.ingest.sentry.io
 0.0.0.0 o22381.ingest.us.sentry.io #anpassen
 0.0.0.0 o4507427284123728.ingest.de.sentry.io # anpassen
@@ -104,6 +114,7 @@
 0.0.0.0 o22381.ingest.sentry.io
 0.0.0.0 o1.ingest.us.sentry.io
 0.0.0.0 o1040326.ingest.sentry.io
+0.0.0.0 o514642.ingest.us.sentry.io
 
 # sentry.com
 0.0.0.0 sentry.perspective-daily.com
@@ -131,13 +142,18 @@
 0.0.0.0 static.xx.fbcdn.net
 
 # Cloudfront
-# 0.0.0.0 a8dafb1c9da3adf57b48228408d63d640.profile.iad61-p4.cloudfront.net # anpassen
-# 0.0.0.0 dqqdvwgkvpkzi.cloudfront.net
-# 0.0.0.0 b2a7695d2e802c2dacc41398009615b68.profile.ord56-p7.cloudfront.net # anpassen
-# 0.0.0.0 d2wu036mkcz52n.cloudfront.net
-# 0.0.0.0 d2o5idwacg3gyw.cloudfront.net
-# 0.0.0.0 db7q4jg5rkhk8.cloudfront.net
-# 0.0.0.0 d3lqotgbn3npr.cloudfront.net
+0.0.0.0 a8dafb1c9da3adf57b48228408d63d640.profile.iad61-p4.cloudfront.net # anpassen
+0.0.0.0 dqqdvwgkvpkzi.cloudfront.net
+0.0.0.0 b2a7695d2e802c2dacc41398009615b68.profile.ord56-p7.cloudfront.net # anpassen
+0.0.0.0 d2wu036mkcz52n.cloudfront.net
+0.0.0.0 d2o5idwacg3gyw.cloudfront.net
+0.0.0.0 db7q4jg5rkhk8.cloudfront.net
+0.0.0.0 d3lqotgbn3npr.cloudfront.net
+0.0.0.0 a0950f341b1c31a02107c4b480fb39e45.profile.del51-p5.cloudfront.net
+
+# Cloudfront REGEX
+^([0-9a-z]{33})\.profile\.([a-z0-9]{5}[-][a-z0-9]{2})\.cloudfront\.(net)$
+^([0-9a-z]+)\.cloudfront\.([a-z]{2,7})$
 
 # cloudflareinsights
 0.0.0.0 static.cloudflareinsights.com
@@ -145,6 +161,7 @@
 # adsrvr.org
 0.0.0.0 js.adsrvr.org
 0.0.0.0 match.adsrvr.org
+0.0.0.0 direct.adsrvr.org
 
 # btloader
 0.0.0.0 btloader.com
@@ -279,6 +296,8 @@
 # criteo.com
 0.0.0.0 grid-bidder.criteo.com
 0.0.0.0 gum.criteo.com
+0.0.0.0 dynamic.criteo.com
+0.0.0.0 dis.criteo.com
 
 # outbrain.com
 0.0.0.0 widgets.outbrain.com
@@ -330,6 +349,7 @@
 
 # scarabresearch
 0.0.0.0 cdn.scarabresearch.com
+0.0.0.0 recommender.scarabresearch.com
 
 # vgwort.de
 0.0.0.0 ssl-vg03.met.vgwort.de 
@@ -417,6 +437,7 @@
 0.0.0.0 api.permutive.app
 0.0.0.0 f23f026d-af06-45a2-8d42-9222f4656195.edge.permutive.app #anpassen
 0.0.0.0 5d79bce7-5d2b-427e-a6c4-b89b6c7bf048.edge.permutive.app #anpassen
+0.0.0.0 2e094599-243a-47a1-9c8c-d318a0dec54a.edge.permutive.app
 
 # permutive.com
 0.0.0.0 api.permutive.com
@@ -565,6 +586,7 @@
 
 # tealiumiq.com
 0.0.0.0 collect.tealiumiq.com
+0.0.0.0 collect-eu-central-1.tealiumiq.com
 
 # brightcove.com
 0.0.0.0 metrics.brightcove.com
@@ -693,6 +715,8 @@
 0.0.0.0 yxsu5ufd2m.kameleoon.eu
 0.0.0.0 wni4spsbqo.kameleoon.eu
 0.0.0.0 sdk-config.kameleoon.eu
+0.0.0.0 mdx4zwets6.kameleoon.eu
+0.0.0.0 l6nk0rtuog.kameleoon.eu
 
 # nexx360-static.io
 0.0.0.0 cdn.nexx360-static.io
@@ -973,6 +997,7 @@
 # tsyndicate.com
 0.0.0.0 lcdn.tsyndicate.com
 0.0.0.0 cdn.tsyndicate.com
+#0.0.0.0 tsyndicate.com
 
 # yandex.ru
 0.0.0.0 mc.yandex.ru
@@ -980,6 +1005,7 @@
 # realsrv.com
 0.0.0.0 syndication.realsrv.com
 0.0.0.0 a.realsrv.com
+0.0.0.0 ads.realsrv.com
 
 # magsrv.com
 0.0.0.0 a.magsrv.com
@@ -1003,6 +1029,7 @@
 
 # adtng.com
 0.0.0.0 a.adtng.com
+0.0.0.0 hw-cdn2.adtng.com
 
 # jibeno.xyz
 0.0.0.0 t.jibeno.xyz
@@ -1012,6 +1039,7 @@
 
 # twinrdengine.com
 0.0.0.0 ad.twinrdengine.com
+0.0.0.0 feed.ad.twinrdengine.com
 
 # hepelu.my
 0.0.0.0 t.hepelu.my
@@ -1177,6 +1205,7 @@
 
 # exoclick.com
 0.0.0.0 ads.exoclick.com
+0.0.0.0 a.exoclick.com
 
 # adspector.io
 0.0.0.0 a.adspector.io
@@ -1192,3 +1221,227 @@
 
 # roeyecdn.com
 0.0.0.0 lantern.roeyecdn.com
+
+# wmcdpt.com
+0.0.0.0 wmcdpt.com
+
+# around.xxx
+0.0.0.0 api.around.xxx
+
+# buysellads.com
+0.0.0.0 srv.buysellads.com
+
+# vk-portal.net
+0.0.0.0 stats.vk-portal.net
+0.0.0.0 stacks.vk-portal.net
+
+# vk.com
+0.0.0.0 33412.ms.vk.com
+0.0.0.0 34412.ms.vk.com
+0.0.0.0 35412.ms.vk.com
+0.0.0.0 api.vk.com
+
+# tns-counter.ru
+0.0.0.0 www.tns-counter.ru
+0.0.0.0 tns-counter.ru
+
+# mail.ru
+0.0.0.0 top-fwz1.mail.ru
+
+# apptracer.ru
+0.0.0.0 sdk-api.apptracer.ru
+
+# himuhi.my
+0.0.0.0 t.himuhi.my
+
+# etracker.com
+0.0.0.0 code.etracker.com
+
+# awdeliverynet.com
+0.0.0.0 cdn.awdeliverynet.com
+
+# scashwl.com
+0.0.0.0 ae3e0a05489629f1f964cefa05fb463f.scashwl.com
+
+# air2s.com
+0.0.0.0 as.air2s.com
+
+# trashreality.com
+0.0.0.0 ar.trashreality.com
+
+# piwik.pro
+0.0.0.0 delius.containers.piwik.pro
+
+# contentsquare.net
+0.0.0.0 t.contentsquare.net
+
+# exactag.com
+0.0.0.0 cdn.exactag.com
+
+# utt.pm
+0.0.0.0 utt.pm
+
+#xgroovy.com
+0.0.0.0 rtb-6.xgroovy.com
+
+# brevo.com
+0.0.0.0 cdn.brevo.com
+
+# doofinder.com
+0.0.0.0 eu1-api.doofinder.com
+
+# yadro.ru
+0.0.0.0 counter.yadro.ru
+
+# spoteffects.net
+0.0.0.0 trck.spoteffects.net
+
+# rtbix.com
+0.0.0.0 pixel.rtbix.com
+
+#ozon.ru
+0.0.0.0 xapi.ozon.ru
+
+# portal101.cn
+0.0.0.0 fp-it-acc.portal101.cn
+
+# wknd.ai
+0.0.0.0 tag.wknd.ai
+
+# assemblyexchange.com
+0.0.0.0 ads.assemblyexchange.com
+
+# adsafeprotected.com
+0.0.0.0 cdn.adsafeprotected.com
+
+# genius.com
+0.0.0.0 librato-collector.genius.com
+
+# tradingview.com
+0.0.0.0 telemetry.tradingview.com
+
+# marca.com
+0.0.0.0 pixelcounter.marca.com
+
+# privacy-center.org
+0.0.0.0 api.privacy-center.org
+
+# srmdata-eur.com
+0.0.0.0 www.srmdata-eur.com
+
+# mail.ru
+0.0.0.0 an.mail.ru
+0.0.0.0 b2.mail.ru
+0.0.0.0 cspreport.mail.ru
+0.0.0.0 r3.mail.ru
+0.0.0.0 rs.mail.ru 
+0.0.0.0 top-fwz1.mail.ru
+0.0.0.0 trk.mail.ru
+0.0.0.0 xray.mail.ru
+0.0.0.0 ad.mail.ru
+
+# apptracer.ru
+0.0.0.0 sdk-api.apptracer.ru
+
+# consentmanager.net
+0.0.0.0 a.delivery.consentmanager.net
+
+# dzen.ru
+0.0.0.0 531311.ms.dzen.ru
+0.0.0.0 531511.ms.dzen.ru
+0.0.0.0 541311.ms.dzen.ru
+0.0.0.0 541511.ms.dzen.ru
+0.0.0.0 551311.ms.dzen.ru
+0.0.0.0 telemetry.dzen.ru
+0.0.0.0 551211.ms.dzen.ru
+
+# imgsmail.ru
+0.0.0.0 stat.radar.imgsmail.ru
+
+# yandex.net
+0.0.0.0 csp.yandex.net
+
+# roistat.com
+0.0.0.0 cloud.roistat.com
+
+# 24smi.net
+0.0.0.0 jsn.24smi.net
+
+# adfox.ru
+0.0.0.0 ads.adfox.ru
+0.0.0.0 banners.adfox.ru
+
+# mediametrics.ru
+0.0.0.0 mediametrics.ru
+
+# tns-counter.ru
+0.0.0.0 www.tns-counter.ru
+
+# adfinity.pro
+0.0.0.0 cdn.adfinity.pro
+
+# imgsmail.ru
+0.0.0.0 limg.imgsmail.ru
+
+# lentainform.com
+0.0.0.0 autocounter.lentainform.com
+
+# rutube.ru
+0.0.0.0 log.rutube.ru
+0.0.0.0 test.rutube.ru
+
+# weborama-tech.ru
+0.0.0.0 wcm.weborama-tech.ru
+
+# news.smi2.ru
+0.0.0.0 news.smi2.ru
+
+# infox.sg
+0.0.0.0 rb.infox.sg
+
+# instant.page
+0.0.0.0 instant.page
+
+# marketo.net
+0.0.0.0 munchkin.marketo.net
+
+# bilibili.com
+0.0.0.0 cm.bilibili.com
+
+# wistia.com
+0.0.0.0 distillery.wistia.com
+0.0.0.0 pipedream.wistia.com
+
+# woopra.com
+0.0.0.0 static.woopra.com
+
+# vidalytics.com
+0.0.0.0 stats.vidalytics.com
+
+# vimeo.com
+0.0.0.0 arclight.vimeo.com
+
+# opti-digital.com
+0.0.0.0 optiyield-data.opti-digital.com
+0.0.0.0 scripts.opti-digital.com
+
+# vdo.ai
+0.0.0.0 a.vdo.ai
+0.0.0.0 analytics.vdo.ai
+0.0.0.0 targeting.vdo.ai
+
+#cpg-cdn.com
+0.0.0.0 cpg-cdn.com
+
+# data.deep-content.io
+0.0.0.0 data.deep-content.io
+
+# adjust.com
+0.0.0.0 cdn.adjust.com
+
+# tblcontent.com
+0.0.0.0 am-data.tblcontent.com
+
+# relevant-digital.com
+0.0.0.0 wetteronline-cdn.relevant-digital.com
+0.0.0.0 wetteronline-pbs.relevant-digital.com
