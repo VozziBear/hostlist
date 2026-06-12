@@ -25,7 +25,7 @@
 0.0.0.0 4952451.fls.doubleclick.net
 0.0.0.0 region1.analytics.google.com
 0.0.0.0 fundingchoicesmessages.google.com
-0.0.0.0 rr3---sn-hgn7rnls.googlevideo.com # anpassen!!!!!
+0.0.0.0 rr3---sn-hgn7rnls.googlevideo.com
 
 # Amazon
 0.0.0.0 unagi.amazon.de
@@ -659,10 +659,9 @@
 # sensic.net
 0.0.0.0 es-config.sensic.net
 
-# 
-0.0.0.0 data-c14a6b9c37.motorradonline.de # anpassen
-0.0.0.0 data-cf56e4da9b.motorradonline.de # anpassen
-
+# motorradonline.de
+0.0.0.0 data-c14a6b9c37.motorradonline.de 
+0.0.0.0 data-cf56e4da9b.motorradonline.de 
 
 # upscore.com
 0.0.0.0 hit-error.upscore.com
@@ -861,7 +860,6 @@
 
 # esa.int
 0.0.0.0 www-analytics.esa.int
-0.0.0.0 
 
 # bild.de
 0.0.0.0 jnt.bild.de
@@ -886,7 +884,6 @@
 
 # primis.tech
 0.0.0.0 live.primis.tech
-0.0.0.0 
 
 # quantserve.com
 0.0.0.0 secure.quantserve.com
@@ -1028,7 +1025,7 @@
 0.0.0.0 t.jibeno.xyz
 
 # ahacdn.me
-0.0.0.0 cdn26135956.ahacdn.me # anpassen
+0.0.0.0 cdn26135956.ahacdn.me
 
 # twinrdengine.com
 0.0.0.0 ad.twinrdengine.com
@@ -1044,7 +1041,7 @@
 0.0.0.0 srv.buysellads.com
 
 # forter.com
-0.0.0.0 77ee068b6863.cdn4.forter.com # anpassen
+0.0.0.0 77ee068b6863.cdn4.forter.com
 0.0.0.0 cdn0.forter.com
 0.0.0.0 cdn3.forter.com
 0.0.0.0 821dbf709728.cdn4.forter.com
@@ -1438,3 +1435,6 @@
 # relevant-digital.com
 0.0.0.0 wetteronline-cdn.relevant-digital.com
 0.0.0.0 wetteronline-pbs.relevant-digital.com
+
+# youborafds01.com
+0.0.0.0 a-fds.youborafds01.com
